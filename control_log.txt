@@ -1,0 +1,3649 @@
+2026-07-31 08:56:46.022501: Controller auto-activated.
+2026-07-31 08:57:03.369061: Controller auto-activated.
+2026-07-31 08:57:03.984272: Typed text: Hello World
+2026-07-31 08:57:05.966803: Controller auto-deactivated.
+2026-07-31 08:57:51.050457: Controller auto-activated.
+2026-07-31 08:57:53.046334: Controller auto-deactivated.
+2026-07-31 09:45:16.002935: Controller auto-activated.
+2026-07-31 09:45:16.203738: Mouse clicked: left
+2026-07-31 09:45:18.198218: Controller auto-deactivated.
+2026-07-31 11:03:29.295744: Controller auto-activated.
+2026-07-31 11:03:29.482594: Mouse clicked: left
+2026-07-31 11:03:31.482766: Controller auto-deactivated.
+2026-07-31 16:43:35.986557: Controller auto-activated.
+2026-07-31 16:43:36.181722: Volume control: increase
+2026-07-31 16:43:38.195714: Controller auto-deactivated.
+2026-07-31 16:50:17.734290: Controller auto-activated.
+2026-07-31 16:50:18.359676: Typed text: Hello World
+2026-07-31 16:50:20.355916: Controller auto-deactivated.
+2026-07-31 16:51:15.670305: Controller auto-activated.
+2026-07-31 16:51:23.847364: Controller auto-activated.
+2026-07-31 16:51:32.239422: Controller auto-activated.
+2026-07-31 16:51:42.017539: Controller auto-activated.
+2026-07-31 16:51:42.774089: Typed text: Hello Rumi Didi
+2026-07-31 16:51:44.759877: Controller auto-deactivated.
+2026-07-31 17:06:24.643695: Controller auto-activated.
+2026-07-31 17:06:25.195752: Typed text: Motu Patlu
+2026-07-31 17:06:27.179418: Controller auto-deactivated.
+2026-07-31 17:06:31.543328: Controller auto-activated.
+2026-07-31 17:06:31.744589: Pressed key: Enter
+2026-07-31 17:06:33.743403: Controller auto-deactivated.
+2026-07-31 17:08:07.674002: Controller auto-activated.
+2026-07-31 17:08:08.888479: Typed text: Hello Nikhil how are you
+2026-07-31 17:08:10.890228: Controller auto-deactivated.
+2026-07-31 17:08:24.151029: Controller auto-activated.
+2026-07-31 17:08:34.132719: Controller auto-activated.
+2026-08-01 10:05:48.455051: Controller auto-activated.
+2026-08-01 10:05:50.450357: Controller auto-deactivated.
+2026-08-01 10:09:31.627984: Controller auto-activated.
+2026-08-01 10:09:40.270624: Typed text: <!DOCTYPE html>
+<html>
+<head>
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Welcome to my website!</h1>
+    <p>This is a basic website created with HTML.</p>
+</body>
+</html>
+2026-08-01 10:09:42.265584: Controller auto-deactivated.
+2026-08-01 10:09:42.418834: Controller auto-activated.
+2026-08-01 10:09:44.413709: Controller auto-deactivated.
+2026-08-01 10:10:32.921921: Controller auto-activated.
+2026-08-01 10:10:51.393904: Controller auto-activated.
+2026-08-01 10:11:05.612121: Controller auto-activated.
+2026-08-01 10:11:12.401376: Typed text: <!DOCTYPE html>
+<html>
+<head>
+<title>Sonu Thakur's Sci-Fi Hub</title>
+<style>
+  body {
+    background-color: #0a0a1a;
+    color: #00ffff;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 20px;
+  }
+  h1 {
+    color: #00ff99;
+    text-shadow: 0 0 5px #00ff99;
+  }
+</style>
+</head>
+<body>
+<h1>Welcome to Sonu Thakur's Universe</h1>
+<p>This is a Sci-Fi themed webpage. You can add your details here.</p>
+</body>
+</html>
+2026-08-01 10:11:14.401502: Controller auto-deactivated.
+2026-08-01 10:11:15.657179: Typed text: <!DOCTYPE html>
+<html>
+<head>
+<title>My Sci-Fi Website</title>
+<style>
+body {
+    background-color: #0a0a1a;
+    color: #00ffff; /* Neon Blue */
+    font-family: 'Courier New', Courier, monospace;
+    text-shadow: 0 0 5px #00ffff, 0 0 10px #00ffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 40px;
+    border-radius: 10px;
+    border: 2px solid #00ffff;
+    box-shadow: 0 0 20px #00ffff;
+    text-align: center;
+}
+h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #00ffff;
+    padding-bottom: 10px;
+}
+p {
+    font-size: 1.2em;
+}
+</style>
+</head>
+<body>
+<div class="container">
+    <h1>[Your Name]</h1>
+    <p>Welcome to my cyber world!</p>
+    <p>Edit this section to add your details.</p>
+</div>
+</body>
+</html>
+2026-08-01 10:11:17.636657: Controller auto-deactivated.
+2026-08-01 10:11:43.794144: Controller auto-activated.
+2026-08-01 10:11:50.101684: Typed text: <!DOCTYPE html>
+<html>
+<head>
+    <title>Sonu Thakur's Sci-Fi Universe</title>
+    <style>
+        body {
+            background-color: #0a0a1a;
+            color: #00ffff;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding: 50px;
+        }
+        .container {
+            border: 1px solid #00ffff;
+            padding: 20px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+            display: inline-block;
+            background-color: rgba(0, 0, 0, 0.3);
+        }
+        h1 {
+            color: #00ff99;
+            text-shadow: 0 0 10px rgba(0, 255, 153, 0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Sonu Thakur's World</h1>
+        <p>This is a Sci-Fi themed website. You can edit this text to add your details.</p>
+        <p>Stay tuned for more!</p>
+    </div>
+</body>
+</html>
+2026-08-01 10:11:52.102218: Controller auto-deactivated.
+2026-08-01 10:13:18.577253: Controller auto-activated.
+2026-08-01 10:13:19.047803: Typed text: index.html
+2026-08-01 10:13:21.043428: Controller auto-deactivated.
+2026-08-01 10:13:36.069459: Controller auto-activated.
+2026-08-01 10:13:36.612546: Typed text: index.html
+2026-08-01 10:13:38.603189: Controller auto-deactivated.
+2026-08-01 10:26:05.100830: Controller auto-activated.
+2026-08-01 10:26:05.416048: Pressed hotkey: win + a
+2026-08-01 10:26:07.427665: Controller auto-deactivated.
+2026-08-01 10:29:14.051036: Controller auto-activated.
+2026-08-01 10:29:14.239981: Pressed key: 4
+2026-08-01 10:29:16.231186: Controller auto-deactivated.
+2026-08-01 10:29:16.407359: Controller auto-activated.
+2026-08-01 10:29:16.609146: Pressed key: 1
+2026-08-01 10:29:18.615583: Controller auto-deactivated.
+2026-08-01 10:29:18.791896: Controller auto-activated.
+2026-08-01 10:29:20.805119: Controller auto-deactivated.
+2026-08-01 10:29:20.972292: Controller auto-activated.
+2026-08-01 10:29:21.190812: Pressed key: 1
+2026-08-01 10:29:23.182219: Controller auto-deactivated.
+2026-08-01 10:29:23.396924: Controller auto-activated.
+2026-08-01 10:29:23.607945: Pressed key: 5
+2026-08-01 10:29:25.616547: Controller auto-deactivated.
+2026-08-01 10:29:25.800613: Controller auto-activated.
+2026-08-01 10:29:25.994901: Pressed key: 0
+2026-08-01 10:29:27.995712: Controller auto-deactivated.
+2026-08-01 10:29:47.079639: Controller auto-activated.
+2026-08-01 10:29:47.274121: Pressed key: 4
+2026-08-01 10:29:49.278299: Controller auto-deactivated.
+2026-08-01 10:29:50.332581: Controller auto-activated.
+2026-08-01 10:29:50.532344: Pressed key: 0
+2026-08-01 10:29:52.527124: Controller auto-deactivated.
+2026-08-01 10:29:52.700956: Controller auto-activated.
+2026-08-01 10:29:54.699635: Controller auto-deactivated.
+2026-08-01 10:30:24.023002: Controller auto-activated.
+2026-08-01 10:30:24.335812: Pressed hotkey: win + d
+2026-08-01 10:30:26.344075: Controller auto-deactivated.
+2026-08-01 10:40:09.302079: Controller auto-activated.
+2026-08-01 10:40:09.486735: Volume control: increase
+2026-08-01 10:40:11.490872: Controller auto-deactivated.
+2026-08-01 10:42:56.259221: Controller auto-activated.
+2026-08-01 10:42:56.574352: Volume control: mute
+2026-08-01 10:42:58.576283: Controller auto-deactivated.
+2026-08-01 10:43:02.397723: Controller auto-activated.
+2026-08-01 10:43:02.606198: Volume control: unmute
+2026-08-01 10:43:04.609774: Controller auto-deactivated.
+2026-08-01 10:43:17.149667: Controller auto-activated.
+2026-08-01 10:43:17.359522: Volume control: increase
+2026-08-01 10:43:19.365712: Controller auto-deactivated.
+2026-08-01 10:51:49.529092: Controller auto-activated.
+2026-08-01 10:51:49.738220: Volume control: unmute
+2026-08-01 10:51:51.721438: Controller auto-deactivated.
+2026-08-01 19:39:06.159276: Controller auto-activated.
+2026-08-01 19:39:06.350936: Pressed key: Home
+2026-08-01 19:39:08.336531: Controller auto-deactivated.
+2026-08-01 19:39:19.432248: Controller auto-activated.
+2026-08-01 19:39:21.436044: Controller auto-deactivated.
+2026-08-01 19:39:24.678932: Controller auto-activated.
+2026-08-01 19:39:26.693792: Controller auto-deactivated.
+2026-08-01 19:40:06.546340: Controller auto-activated.
+2026-08-01 19:40:06.743205: Pressed key: Home
+2026-08-01 19:40:08.743008: Controller auto-deactivated.
+2026-08-01 19:40:28.102908: Controller auto-activated.
+2026-08-01 19:40:30.112040: Controller auto-deactivated.
+2026-08-01 19:41:02.485478: Controller auto-activated.
+2026-08-01 19:41:04.485965: Controller auto-deactivated.
+2026-08-01 19:48:04.301094: Controller auto-activated.
+2026-08-01 19:48:04.611834: Pressed hotkey: Win + l
+2026-08-01 19:48:05.088162: Controller auto-deactivated.
+2026-08-01 19:48:27.645389: Controller auto-activated.
+2026-08-01 19:48:27.946760: Pressed hotkey: Win + l
+2026-08-01 19:48:28.445659: Controller auto-deactivated.
+2026-08-01 19:49:20.817499: Controller auto-activated.
+2026-08-01 19:49:21.150902: Volume control: mute
+2026-08-01 19:49:21.634084: Controller auto-deactivated.
+2026-08-01 19:50:09.316193: Controller auto-activated.
+2026-08-01 19:50:09.889777: Volume control: decrease
+2026-08-01 19:50:10.389798: Controller auto-deactivated.
+2026-08-01 19:50:46.535231: Controller auto-activated.
+2026-08-01 19:50:46.843587: Pressed hotkey: Win + l
+2026-08-01 19:50:47.345588: Controller auto-deactivated.
+2026-08-01 19:56:28.311161: Controller auto-activated.
+2026-08-01 19:56:28.650880: Pressed hotkey: Win + L
+2026-08-01 19:56:29.143431: Controller auto-deactivated.
+2026-08-02 10:37:10.057480: Typed text
+2026-08-02 10:37:36.123562: Typed text
+2026-08-02 10:38:21.935339: Typed text
+2026-08-02 10:38:53.627072: Typed text
+2026-08-02 10:40:00.626680: Typed text
+2026-08-02 10:41:45.866329: Controller auto-activated.
+2026-08-02 10:41:46.266618: Typed text: हेलो भाई कैसे
+2026-08-02 10:41:46.760344: Controller auto-deactivated.
+2026-08-02 10:42:10.857484: Controller auto-activated.
+2026-08-02 10:42:11.156776: Pressed hotkey: alt + tab
+2026-08-02 10:42:11.659306: Controller auto-deactivated.
+2026-08-02 10:42:21.802587: Controller auto-activated.
+2026-08-02 10:42:22.012906: Mouse clicked: left
+2026-08-02 10:42:22.516285: Controller auto-deactivated.
+2026-08-02 10:42:26.537694: Controller auto-activated.
+2026-08-02 10:42:26.926013: Typed text: हेलो भाई कैसे
+2026-08-02 10:42:27.415802: Controller auto-deactivated.
+2026-08-02 10:44:27.531066: Controller auto-activated.
+2026-08-02 10:44:27.979051: Typed text: हेलो भाई कैसे हो
+2026-08-02 10:44:28.463968: Controller auto-deactivated.
+2026-08-02 10:50:23.816418: Typed text: हेलो
+2026-08-02 10:50:45.368563: Hotkey: Win + l
+2026-08-02 10:51:11.472850: Hotkey: Ctrl + Alt + Delete
+2026-08-02 11:14:02.613923: Hotkey: win + d
+2026-08-02 11:15:09.698015: Typed text: <!DOCTYPE html>
+<html>
+<head>
+    <title>Sonu Thakur - Business</title>
+    <style>
+        body { font-family: sans-serif; margin: 20px; }
+        h1, h2 { color: #333; }
+        p { color: #666; }
+        .container { max-width: 800px; margin: auto; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to Sonu Thakur's Business</h1>
+        <p>This is a professional business website for Sonu Thakur.</p>
+        
+        <h2>About Sonu Thakur</h2>
+        <p>Sonu Thakur is a dedicated professional with expertise in [Your Business Field]. Committed to excellence and innovation.</p>
+        
+        <h2>Our Services</h2>
+        <ul>
+            <li>Service 1</li>
+            <li>Service 2</li>
+            <li>Service 3</li>
+        </ul>
+        
+        <h2>Contact</h2>
+        <p>Email: contact@sonuthakur.com | Phone: [Your Phone Number]</p>
+    </div>
+</body>
+</html>
+2026-08-02 11:16:59.175890: Hotkey: win + d
+2026-08-02 18:49:00.795463: Typed text: Storage
+2026-08-02 18:50:03.436589: Key pressed: enter
+2026-08-02 19:21:46.892271: Typed text: हेलो कैसे हो
+2026-08-03 10:18:52.912761: Hotkey: Win + d
+2026-08-03 10:32:35.433563: Typed text: Hello
+2026-08-03 10:44:13.827794: Typing started: Sonu, browser banane ka code kafi complex hota hai. Main yahan sirf placeholder likh sakti hoon.
+2026-08-03 10:44:15.045856: Typing completed: Sonu, browser banane ka code kafi complex hota hai. Main yahan sirf placeholder likh sakti hoon.
+2026-08-03 10:45:16.272888: Hotkey: Control + a
+2026-08-03 10:45:23.870915: Key pressed: Backspace
+2026-08-03 10:45:25.515400: Typing started: <!DOCTYPE html>
+<html>
+<head>
+<title>Neon Marketing Browser</title>
+<style>
+  body {
+    background-color: #000;
+    color: #39ff14; /* Neon Green */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .marketing-section {
+    border: 2px solid #ff007f; /* Neon Pink */
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px #ff007f;
+  }
+</style>
+</head>
+<body>
+  <h1>Welcome to Neon Marketing Browser Concept</h1>
+  <div class="marketing-section">
+    <h2>Super exciting deals!</h2>
+    <p>Check out our neon offerings!</p>
+  </div>
+</body>
+</html>
+2026-08-03 10:45:26.691964: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+<title>Neon Marketing Browser</title>
+<style>
+  body {
+    background-color: #000;
+    color: #39ff14; /* Neon Green */
+    font-family: 'Courier New', Courier, monospace;
+  }
+  .marketing-section {
+    border: 2px solid #ff007f; /* Neon Pink */
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px #ff007f;
+  }
+</style>
+</head>
+<body>
+  <h1>Welcome to Neon Marketing Browser Concept</h1>
+  <div class="marketing-section">
+    <h2>Super exciting deals!</h2>
+    <p>Check out our neon offerings!</p>
+  </div>
+</body>
+</html>
+2026-08-03 10:58:07.571826: Typing started: raj thakur
+2026-08-03 10:58:08.811735: Typing completed: raj thakur
+2026-08-03 10:59:10.233131: Typing started: हेलो
+2026-08-03 10:59:11.441445: Typing completed: हेलो
+2026-08-03 10:59:22.317848: Typing started: सॉरी
+2026-08-03 10:59:23.536510: Typing completed: सॉरी
+2026-08-09 17:54:25.947305: Typing started: हेलो कैसे हो
+2026-08-09 17:54:27.180090: Typing completed: हेलो कैसे हो
+2026-08-09 18:03:40.872816: Hotkey: Win + m
+2026-08-09 18:23:22.394971: Hotkey: Win + m
+2026-08-16 07:11:57.311575: Hotkey: Control + n
+2026-08-16 07:12:01.238538: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Hello, Sonu!</h1>
+    <p>This is your first website.</p>
+</body>
+</html>
+2026-08-16 07:12:02.435081: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>Hello, Sonu!</h1>
+    <p>This is your first website.</p>
+</body>
+</html>
+2026-08-16 07:12:02.980974: Hotkey: Control + s
+2026-08-16 07:12:16.091974: Typing started: website
+2026-08-16 07:12:17.312488: Typing completed: website
+2026-08-16 07:12:18.958873: Key pressed: Enter
+2026-08-16 07:12:50.604179: Hotkey: Control + a
+2026-08-16 07:12:54.235179: Key pressed: Backspace
+2026-08-16 07:12:55.242697: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>My Introduction</h1>
+    <p>My name is Sonu Thakur.</p>
+    <p>I am 19 years old.</p>
+    <p>I am from Nepal.</p>
+</body>
+</html>
+2026-08-16 07:12:56.436107: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+</head>
+<body>
+    <h1>My Introduction</h1>
+    <p>My name is Sonu Thakur.</p>
+    <p>I am 19 years old.</p>
+    <p>I am from Nepal.</p>
+</body>
+</html>
+2026-08-16 07:12:56.991570: Hotkey: Control + s
+2026-08-16 07:15:42.844976: Hotkey: Control + a
+2026-08-16 07:15:44.912886: Key pressed: Backspace
+2026-08-16 07:15:48.259947: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 500;
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles();
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 3 + 1;
+                this.color = 'rgba(255, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.05 + 0.02;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function createParticles() {
+            particles = [];
+            // Placeholder for complex shape generation (Namaste, Heart, Disperse)
+            // This part requires detailed coordinate calculation which is extensive.
+            // For now, let's create random particles and plan the morphing logic.
+            for (let i = 0; i < numParticles; i++) {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles();
+        animate();
+
+        // Note: The morphing logic for "Namaste" and "Heart" shapes is complex
+        // and requires significantly more code to define target coordinates.
+        // This is a basic setup for particle animation framework.
+    </script>
+</body>
+</html>
+2026-08-16 07:15:49.436256: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 500;
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles();
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 3 + 1;
+                this.color = 'rgba(255, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.05 + 0.02;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function createParticles() {
+            particles = [];
+            // Placeholder for complex shape generation (Namaste, Heart, Disperse)
+            // This part requires detailed coordinate calculation which is extensive.
+            // For now, let's create random particles and plan the morphing logic.
+            for (let i = 0; i < numParticles; i++) {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles();
+        animate();
+
+        // Note: The morphing logic for "Namaste" and "Heart" shapes is complex
+        // and requires significantly more code to define target coordinates.
+        // This is a basic setup for particle animation framework.
+    </script>
+</body>
+</html>
+2026-08-16 07:15:50.024857: Hotkey: Control + s
+2026-08-16 07:16:17.586053: Hotkey: Control + a
+2026-08-16 07:16:25.457012: Key pressed: Backspace
+2026-08-16 07:16:30.806703: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 500;
+        let currentShape = 'namaste'; // Start with namaste (conceptual)
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 2 + 1;
+                this.color = 'rgba(255, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.03 + 0.02;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        // Simplified shape generation (conceptual coordinates)
+        function getNamasteCoordinates(w, h, num) {
+            // Placeholder: complex calculation for Namaste shape
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.3;
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                // Parametric equation for a heart
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        function createParticles(shape) {
+            let coords;
+            if (shape === 'heart') {
+                coords = getHeartCoordinates(width, height, numParticles);
+            } else {
+                coords = getNamasteCoordinates(width, height, numParticles);
+            }
+
+            particles = [];
+            coords.forEach(coord => {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            });
+            setParticleTargets(coords);
+        }
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles(currentShape);
+        animate();
+
+        // Example morphing logic (can be triggered by user interaction or timer)
+        setTimeout(() => {
+            currentShape = 'heart';
+            const coords = getHeartCoordinates(width, height, numParticles);
+            setParticleTargets(coords);
+        }, 5000); // Morph to heart after 5 seconds
+
+    </script>
+</body>
+</html>
+2026-08-16 07:16:31.992311: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+        }
+        canvas {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 500;
+        let currentShape = 'namaste'; // Start with namaste (conceptual)
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 2 + 1;
+                this.color = 'rgba(255, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.03 + 0.02;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.fill();
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        // Simplified shape generation (conceptual coordinates)
+        function getNamasteCoordinates(w, h, num) {
+            // Placeholder: complex calculation for Namaste shape
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.3;
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                // Parametric equation for a heart
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        function createParticles(shape) {
+            let coords;
+            if (shape === 'heart') {
+                coords = getHeartCoordinates(width, height, numParticles);
+            } else {
+                coords = getNamasteCoordinates(width, height, numParticles);
+            }
+
+            particles = [];
+            coords.forEach(coord => {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            });
+            setParticleTargets(coords);
+        }
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles(currentShape);
+        animate();
+
+        // Example morphing logic (can be triggered by user interaction or timer)
+        setTimeout(() => {
+            currentShape = 'heart';
+            const coords = getHeartCoordinates(width, height, numParticles);
+            setParticleTargets(coords);
+        }, 5000); // Morph to heart after 5 seconds
+
+    </script>
+</body>
+</html>
+2026-08-16 07:16:32.642055: Hotkey: Control + s
+2026-08-16 07:17:43.424248: Hotkey: Control + a
+2026-08-16 07:17:50.464003: Key pressed: Backspace
+2026-08-16 07:17:56.421473: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Sci-Fi Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        #intro.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <div id="intro">
+        <h1>Namaste, I am Sonu Thakur!</h1>
+        <p>I am 19 years old.</p>
+        <p>I am from Nepal.</p>
+    </div>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        const intro = document.getElementById('intro');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 700;
+        let currentShape = 'namaste';
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 2 + 0.5;
+                this.color = 'rgba(0, 255, 255, 0.8)'; // Sci-fi blue
+                this.speed = Math.random() * 0.03 + 0.02;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function getNamasteCoordinates(w, h, num) {
+            // Conceptual Namaste - disperse initially
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.4; // Bigger heart
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        function createParticles(shape) {
+            let coords;
+            if (shape === 'heart') {
+                coords = getHeartCoordinates(width, height, numParticles);
+            } else {
+                coords = getNamasteCoordinates(width, height, numParticles);
+            }
+            particles = [];
+            coords.forEach(coord => {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            });
+            setParticleTargets(coords);
+        }
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles(currentShape);
+        animate();
+
+        // Morphing sequence
+        setTimeout(() => {
+            intro.classList.add('visible'); // Show intro text
+            currentShape = 'heart';
+            const coords = getHeartCoordinates(width, height, numParticles);
+            setParticleTargets(coords);
+        }, 3000); // Morph and show text after 3 seconds
+    </script>
+</body>
+</html>
+2026-08-16 07:17:57.640410: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Sci-Fi Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        #intro.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <div id="intro">
+        <h1>Namaste, I am Sonu Thakur!</h1>
+        <p>I am 19 years old.</p>
+        <p>I am from Nepal.</p>
+    </div>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        const intro = document.getElementById('intro');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 700;
+        let currentShape = 'namaste';
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 2 + 0.5;
+                this.color = 'rgba(0, 255, 255, 0.8)'; // Sci-fi blue
+                this.speed = Math.random() * 0.03 + 0.02;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function getNamasteCoordinates(w, h, num) {
+            // Conceptual Namaste - disperse initially
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.4; // Bigger heart
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        function createParticles(shape) {
+            let coords;
+            if (shape === 'heart') {
+                coords = getHeartCoordinates(width, height, numParticles);
+            } else {
+                coords = getNamasteCoordinates(width, height, numParticles);
+            }
+            particles = [];
+            coords.forEach(coord => {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            });
+            setParticleTargets(coords);
+        }
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles(currentShape);
+        animate();
+
+        // Morphing sequence
+        setTimeout(() => {
+            intro.classList.add('visible'); // Show intro text
+            currentShape = 'heart';
+            const coords = getHeartCoordinates(width, height, numParticles);
+            setParticleTargets(coords);
+        }, 3000); // Morph and show text after 3 seconds
+    </script>
+</body>
+</html>
+2026-08-16 07:17:58.294672: Hotkey: Control + s
+2026-08-16 07:19:36.700590: Hotkey: Control + a
+2026-08-16 07:19:43.363032: Key pressed: Backspace
+2026-08-16 07:19:49.453566: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Sci-Fi Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        #intro.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <div id="intro">
+        <h1>Namaste, I am Sonu Thakur!</h1>
+        <p>I am 19 years old.</p>
+        <p>I am from Nepal.</p>
+    </div>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        const intro = document.getElementById('intro');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 700;
+        let currentShape = 'disperse'; // Start dispersed
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 2 + 0.5;
+                this.color = 'rgba(0, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.03 + 0.02;
+                this.baseX = x;
+                this.baseY = y;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function getDisperseCoordinates(w, h, num) {
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.4;
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        function createParticles(shape) {
+            let coords;
+            if (shape === 'heart') {
+                coords = getHeartCoordinates(width, height, numParticles);
+            } else {
+                coords = getDisperseCoordinates(width, height, numParticles);
+            }
+            particles = [];
+            coords.forEach(coord => {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            });
+            setParticleTargets(coords);
+        }
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            // Simple rotation simulation by updating targets slightly
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles(currentShape);
+        animate();
+
+        // Sequence: Disperse -> Namaste Intro Text -> Heart
+        setTimeout(() => {
+            intro.classList.add('visible');
+            // In a real scenario, Namaste shape coordinates would be set here
+            // For visualization, we directly morph to heart after some time
+            setTimeout(() => {
+                currentShape = 'heart';
+                const coords = getHeartCoordinates(width, height, numParticles);
+                setParticleTargets(coords);
+            }, 3000);
+        }, 1000);
+    </script>
+</body>
+</html>
+2026-08-16 07:19:50.643979: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Sci-Fi Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        #intro.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        p {
+            font-size: 1.2em;
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <div id="intro">
+        <h1>Namaste, I am Sonu Thakur!</h1>
+        <p>I am 19 years old.</p>
+        <p>I am from Nepal.</p>
+    </div>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        const intro = document.getElementById('intro');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 700;
+        let currentShape = 'disperse'; // Start dispersed
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 2 + 0.5;
+                this.color = 'rgba(0, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.03 + 0.02;
+                this.baseX = x;
+                this.baseY = y;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function getDisperseCoordinates(w, h, num) {
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.4;
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        function createParticles(shape) {
+            let coords;
+            if (shape === 'heart') {
+                coords = getHeartCoordinates(width, height, numParticles);
+            } else {
+                coords = getDisperseCoordinates(width, height, numParticles);
+            }
+            particles = [];
+            coords.forEach(coord => {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            });
+            setParticleTargets(coords);
+        }
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            // Simple rotation simulation by updating targets slightly
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles(currentShape);
+        animate();
+
+        // Sequence: Disperse -> Namaste Intro Text -> Heart
+        setTimeout(() => {
+            intro.classList.add('visible');
+            // In a real scenario, Namaste shape coordinates would be set here
+            // For visualization, we directly morph to heart after some time
+            setTimeout(() => {
+                currentShape = 'heart';
+                const coords = getHeartCoordinates(width, height, numParticles);
+                setParticleTargets(coords);
+            }, 3000);
+        }, 1000);
+    </script>
+</body>
+</html>
+2026-08-16 07:19:51.343825: Hotkey: Control + s
+2026-08-16 07:21:46.706536: Hotkey: Control + a
+2026-08-16 07:21:48.923248: Key pressed: Backspace
+2026-08-16 07:21:52.215996: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Diamond Top-Up Mockup</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #00ffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .mockup-container {
+            background-color: #2c2c2c;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+            text-align: center;
+            width: 80%;
+            max-width: 500px;
+        }
+        h1 {
+            margin-top: 0;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        .diamond-option {
+            background-color: #3a3a3a;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            border: 1px solid #00ffff;
+        }
+        .diamond-option:hover {
+            background-color: #00ffff;
+            color: #1a1a1a;
+            transform: scale(1.05);
+        }
+        .btn {
+            background-color: #00ffff;
+            color: #1a1a1a;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="mockup-container">
+        <h1>Sonu's Diamond Top-Up</h1>
+        <p>Select your pack:</p>
+        <div class="diamond-option">100 Diamonds</div>
+        <div class="diamond-option">500 Diamonds</div>
+        <div class="diamond-option">1000 Diamonds</div>
+        <button class="btn">Proceed to Buy</button>
+        <p style="margin-top: 20px; font-size: 0.8em;">Mockup Interface</p>
+    </div>
+</body>
+</html>
+2026-08-16 07:21:53.420863: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Diamond Top-Up Mockup</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #1a1a1a;
+            color: #00ffff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .mockup-container {
+            background-color: #2c2c2c;
+            padding: 40px;
+            border-radius: 15px;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+            text-align: center;
+            width: 80%;
+            max-width: 500px;
+        }
+        h1 {
+            margin-top: 0;
+            color: #00ffff;
+            text-shadow: 0 0 10px #00ffff;
+        }
+        .diamond-option {
+            background-color: #3a3a3a;
+            padding: 15px;
+            margin: 15px 0;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: background-color 0.3s, transform 0.3s;
+            border: 1px solid #00ffff;
+        }
+        .diamond-option:hover {
+            background-color: #00ffff;
+            color: #1a1a1a;
+            transform: scale(1.05);
+        }
+        .btn {
+            background-color: #00ffff;
+            color: #1a1a1a;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="mockup-container">
+        <h1>Sonu's Diamond Top-Up</h1>
+        <p>Select your pack:</p>
+        <div class="diamond-option">100 Diamonds</div>
+        <div class="diamond-option">500 Diamonds</div>
+        <div class="diamond-option">1000 Diamonds</div>
+        <button class="btn">Proceed to Buy</button>
+        <p style="margin-top: 20px; font-size: 0.8em;">Mockup Interface</p>
+    </div>
+</body>
+</html>
+2026-08-16 07:21:54.110400: Hotkey: Control + s
+2026-08-16 07:27:06.521729: Hotkey: Control + a
+2026-08-16 07:27:16.099966: Key pressed: Backspace
+2026-08-16 07:27:22.930419: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Dynamic Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        #intro.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <div id="intro">
+        <h1 id="introText"></h1>
+    </div>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        const intro = document.getElementById('intro');
+        const introText = document.getElementById('introText');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 700;
+        let currentShape = 'disperse';
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 2 + 0.5;
+                this.color = 'rgba(0, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.03 + 0.02;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function getDisperseCoordinates(w, h, num) {
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.6; // Much bigger heart
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        // Conceptual shape functions for Namaste and How are you (complex coordinate generation)
+        function getNamasteCoordinates(w, h, num) {
+            return getDisperseCoordinates(w, h, num); // Placeholder
+        }
+
+        function getHowAreYouCoordinates(w, h, num) {
+            return getDisperseCoordinates(w, h, num); // Placeholder
+        }
+
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        function startSequence() {
+            // 1. Start dispersed (done in createParticles)
+            createParticles('disperse');
+            intro.classList.remove('visible');
+            introText.textContent = '';
+
+            // 2. Morph to big Heart
+            setTimeout(() => {
+                currentShape = 'heart';
+                const coords = getHeartCoordinates(width, height, numParticles);
+                setParticleTargets(coords);
+            }, 1000);
+
+            // 3. Disperse, then Morph to Namaste text
+            setTimeout(() => {
+                currentShape = 'disperse';
+                setParticleTargets(getDisperseCoordinates(width, height, numParticles));
+                setTimeout(() => {
+                    introText.textContent = 'Namaste';
+                    intro.classList.add('visible');
+                    // Conceptual morph to Namaste shape would be here
+                }, 2000);
+            }, 6000); // After 6 seconds from start
+
+            // 4. Disperse, then Morph to How are you text
+            setTimeout(() => {
+                currentShape = 'disperse';
+                setParticleTargets(getDisperseCoordinates(width, height, numParticles));
+                intro.classList.remove('visible');
+                setTimeout(() => {
+                     introText.textContent = 'How are you?';
+                    intro.classList.add('visible');
+                    // Conceptual morph to How are you shape would be here
+                }, 2000);
+            }, 11000); // After 11 seconds from start
+        }
+
+        startSequence();
+        animate();
+    </script>
+</body>
+</html>
+2026-08-16 07:27:24.136332: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Dynamic Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        #intro.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <div id="intro">
+        <h1 id="introText"></h1>
+    </div>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        const intro = document.getElementById('intro');
+        const introText = document.getElementById('introText');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 700;
+        let currentShape = 'disperse';
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 2 + 0.5;
+                this.color = 'rgba(0, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.03 + 0.02;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function getDisperseCoordinates(w, h, num) {
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.6; // Much bigger heart
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        // Conceptual shape functions for Namaste and How are you (complex coordinate generation)
+        function getNamasteCoordinates(w, h, num) {
+            return getDisperseCoordinates(w, h, num); // Placeholder
+        }
+
+        function getHowAreYouCoordinates(w, h, num) {
+            return getDisperseCoordinates(w, h, num); // Placeholder
+        }
+
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        function startSequence() {
+            // 1. Start dispersed (done in createParticles)
+            createParticles('disperse');
+            intro.classList.remove('visible');
+            introText.textContent = '';
+
+            // 2. Morph to big Heart
+            setTimeout(() => {
+                currentShape = 'heart';
+                const coords = getHeartCoordinates(width, height, numParticles);
+                setParticleTargets(coords);
+            }, 1000);
+
+            // 3. Disperse, then Morph to Namaste text
+            setTimeout(() => {
+                currentShape = 'disperse';
+                setParticleTargets(getDisperseCoordinates(width, height, numParticles));
+                setTimeout(() => {
+                    introText.textContent = 'Namaste';
+                    intro.classList.add('visible');
+                    // Conceptual morph to Namaste shape would be here
+                }, 2000);
+            }, 6000); // After 6 seconds from start
+
+            // 4. Disperse, then Morph to How are you text
+            setTimeout(() => {
+                currentShape = 'disperse';
+                setParticleTargets(getDisperseCoordinates(width, height, numParticles));
+                intro.classList.remove('visible');
+                setTimeout(() => {
+                     introText.textContent = 'How are you?';
+                    intro.classList.add('visible');
+                    // Conceptual morph to How are you shape would be here
+                }, 2000);
+            }, 11000); // After 11 seconds from start
+        }
+
+        startSequence();
+        animate();
+    </script>
+</body>
+</html>
+2026-08-16 07:27:24.890164: Hotkey: Control + s
+2026-08-16 07:28:28.135148: Hotkey: Control + a
+2026-08-16 07:28:31.441851: Key pressed: Backspace
+2026-08-16 07:28:35.354451: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Sci-Fi Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        canvas {
+            display: block;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 100;
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles();
+        });
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = Math.random() * 2 - 1;
+                this.speedY = Math.random() * 2 - 1;
+                this.color = 'rgba(0, 255, 255, 0.8)';
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                if (this.x < 0 || this.x > width) {
+                    this.speedX *= -1;
+                }
+                if (this.y < 0 || this.y > height) {
+                    this.speedY *= -1;
+                }
+            }
+        }
+
+        function createParticles() {
+            particles = [];
+            for (let i = 0; i < numParticles; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.2)';
+            ctx.fillRect(0, 0, width, height); // Trail effect
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles();
+        animate();
+    </script>
+</body>
+</html>
+2026-08-16 07:28:36.571468: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Sci-Fi Animation</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        canvas {
+            display: block;
+            box-shadow: 0 0 20px rgba(0, 255, 255, 0.5);
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 100;
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles();
+        });
+
+        class Particle {
+            constructor() {
+                this.x = Math.random() * width;
+                this.y = Math.random() * height;
+                this.size = Math.random() * 2 + 1;
+                this.speedX = Math.random() * 2 - 1;
+                this.speedY = Math.random() * 2 - 1;
+                this.color = 'rgba(0, 255, 255, 0.8)';
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                this.x += this.speedX;
+                this.y += this.speedY;
+
+                if (this.x < 0 || this.x > width) {
+                    this.speedX *= -1;
+                }
+                if (this.y < 0 || this.y > height) {
+                    this.speedY *= -1;
+                }
+            }
+        }
+
+        function createParticles() {
+            particles = [];
+            for (let i = 0; i < numParticles; i++) {
+                particles.push(new Particle());
+            }
+        }
+
+        function animate() {
+            ctx.clearRect(0, 0, width, height);
+            ctx.fillStyle = 'rgba(0, 0, 0, 0.2)';
+            ctx.fillRect(0, 0, width, height); // Trail effect
+            particles.forEach(particle => {
+                particle.update();
+                particle.draw();
+            });
+            requestAnimationFrame(animate);
+        }
+
+        createParticles();
+        animate();
+    </script>
+</body>
+</html>
+2026-08-16 07:28:37.299407: Hotkey: Control + s
+2026-08-16 07:29:04.642257: Hotkey: Control + a
+2026-08-16 07:29:10.372842: Key pressed: Backspace
+2026-08-16 07:29:17.018542: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Dynamic Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        #intro.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <div id="intro">
+        <h1 id="introText"></h1>
+    </div>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        const intro = document.getElementById('intro');
+        const introText = document.getElementById('introText');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 1000; // Increased particles
+        let currentShape = 'disperse';
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 1.5 + 0.5;
+                this.color = 'rgba(0, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.02 + 0.01;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function getDisperseCoordinates(w, h, num) {
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.7; // Even bigger heart
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        function getNamasteCoordinates(w, h, num) {
+            return getDisperseCoordinates(w, h, num); // Placeholder
+        }
+
+        function getHowAreYouCoordinates(w, h, num) {
+            return getDisperseCoordinates(w, h, num); // Placeholder
+        }
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function createParticles(shape) {
+            let coords;
+            if (shape === 'heart') {
+                coords = getHeartCoordinates(width, height, numParticles);
+            } else {
+                coords = getDisperseCoordinates(width, height, numParticles);
+            }
+            particles = [];
+            coords.forEach(coord => {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            });
+            setParticleTargets(coords);
+        }
+
+        function startSequence() {
+            createParticles('disperse');
+            intro.classList.remove('visible');
+            introText.textContent = '';
+
+            setTimeout(() => {
+                currentShape = 'heart';
+                const coords = getHeartCoordinates(width, height, numParticles);
+                setParticleTargets(coords);
+            }, 1000);
+
+            setTimeout(() => {
+                currentShape = 'disperse';
+                setParticleTargets(getDisperseCoordinates(width, height, numParticles));
+                setTimeout(() => {
+                    introText.textContent = 'Namaste';
+                    intro.classList.add('visible');
+                }, 2000);
+            }, 7000); // Increased time for heart animation
+
+            setTimeout(() => {
+                currentShape = 'disperse';
+                setParticleTargets(getDisperseCoordinates(width, height, numParticles));
+                intro.classList.remove('visible');
+                setTimeout(() => {
+                     introText.textContent = 'How are you?';
+                    intro.classList.add('visible');
+                }, 2000);
+            }, 13000);
+        }
+
+        startSequence();
+        animate();
+    </script>
+</body>
+</html>
+2026-08-16 07:29:18.199567: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Dynamic Website</title>
+    <style>
+        body {
+            margin: 0;
+            overflow: hidden;
+            background-color: #000;
+            color: #00ffff;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        canvas {
+            display: block;
+        }
+        #intro {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            text-align: center;
+            z-index: 10;
+            opacity: 0;
+            transition: opacity 2s ease-in-out;
+        }
+        #intro.visible {
+            opacity: 1;
+        }
+        h1 {
+            font-size: 3em;
+            margin: 0;
+            text-shadow: 0 0 10px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <canvas id="animationCanvas"></canvas>
+    <div id="intro">
+        <h1 id="introText"></h1>
+    </div>
+    <script>
+        const canvas = document.getElementById('animationCanvas');
+        const ctx = canvas.getContext('2d');
+        const intro = document.getElementById('intro');
+        const introText = document.getElementById('introText');
+        let width = canvas.width = window.innerWidth;
+        let height = canvas.height = window.innerHeight;
+        let particles = [];
+        const numParticles = 1000; // Increased particles
+        let currentShape = 'disperse';
+
+        window.addEventListener('resize', () => {
+            width = canvas.width = window.innerWidth;
+            height = canvas.height = window.innerHeight;
+            createParticles(currentShape);
+        });
+
+        class Particle {
+            constructor(x, y) {
+                this.x = x;
+                this.y = y;
+                this.targetX = x;
+                this.targetY = y;
+                this.size = Math.random() * 1.5 + 0.5;
+                this.color = 'rgba(0, 255, 255, 0.8)';
+                this.speed = Math.random() * 0.02 + 0.01;
+            }
+
+            draw() {
+                ctx.fillStyle = this.color;
+                ctx.beginPath();
+                ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+                ctx.shadowBlur = 5;
+                ctx.shadowColor = '#00ffff';
+                ctx.fill();
+                ctx.shadowBlur = 0;
+            }
+
+            update() {
+                const dx = this.targetX - this.x;
+                const dy = this.targetY - this.y;
+                this.x += dx * this.speed;
+                this.y += dy * this.speed;
+            }
+        }
+
+        function getDisperseCoordinates(w, h, num) {
+            return Array.from({length: num}, () => ({
+                x: Math.random() * w,
+                y: Math.random() * h
+            }));
+        }
+
+        function getHeartCoordinates(w, h, num) {
+            const coords = [];
+            const scale = Math.min(w, h) * 0.7; // Even bigger heart
+            const centerX = w / 2;
+            const centerY = h / 2;
+            for (let i = 0; i < num; i++) {
+                const t = Math.random() * Math.PI * 2;
+                const x = centerX + 16 * Math.sin(t)**3 * (scale/400);
+                const y = centerY - (13 * Math.cos(t) - 5 * Math.cos(2*t) - 2 * Math.cos(3*t) - Math.cos(4*t)) * (scale/400);
+                coords.push({x, y});
+            }
+            return coords;
+        }
+
+        function getNamasteCoordinates(w, h, num) {
+            return getDisperseCoordinates(w, h, num); // Placeholder
+        }
+
+        function getHowAreYouCoordinates(w, h, num) {
+            return getDisperseCoordinates(w, h, num); // Placeholder
+        }
+
+        function setParticleTargets(coords) {
+            coords.forEach((coord, index) => {
+                if (particles[index]) {
+                    particles[index].targetX = coord.x;
+                    particles[index].targetY = coord.y;
+                }
+            });
+        }
+
+        function createParticles(shape) {
+            let coords;
+            if (shape === 'heart') {
+                coords = getHeartCoordinates(width, height, numParticles);
+            } else {
+                coords = getDisperseCoordinates(width, height, numParticles);
+            }
+            particles = [];
+            coords.forEach(coord => {
+                particles.push(new Particle(Math.random() * width, Math.random() * height));
+            });
+            setParticleTargets(coords);
+        }
+
+        function startSequence() {
+            createParticles('disperse');
+            intro.classList.remove('visible');
+            introText.textContent = '';
+
+            setTimeout(() => {
+                currentShape = 'heart';
+                const coords = getHeartCoordinates(width, height, numParticles);
+                setParticleTargets(coords);
+            }, 1000);
+
+            setTimeout(() => {
+                currentShape = 'disperse';
+                setParticleTargets(getDisperseCoordinates(width, height, numParticles));
+                setTimeout(() => {
+                    introText.textContent = 'Namaste';
+                    intro.classList.add('visible');
+                }, 2000);
+            }, 7000); // Increased time for heart animation
+
+            setTimeout(() => {
+                currentShape = 'disperse';
+                setParticleTargets(getDisperseCoordinates(width, height, numParticles));
+                intro.classList.remove('visible');
+                setTimeout(() => {
+                     introText.textContent = 'How are you?';
+                    intro.classList.add('visible');
+                }, 2000);
+            }, 13000);
+        }
+
+        startSequence();
+        animate();
+    </script>
+</body>
+</html>
+2026-08-16 07:29:18.969096: Hotkey: Control + s
+2026-08-17 08:43:57.120648: Typing started: <!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Sonu's Anime World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <button id="getStartedBtn">Get Started</button>
+        <div id="introduction" class="hidden">
+            <h2>About Me</h2>
+            <p>Hello! I am Sonu Thakur, your creator and the owner of this website. I am from Nepal and I am 19 years old.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- style.css -->
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #ff9a9e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+}
+</style>
+
+<!-- script.js -->
+<script>
+const getStartedBtn = document.getElementById('getStartedBtn');
+const introduction = document.getElementById('introduction');
+
+getStartedBtn.addEventListener('click', () => {
+    introduction.classList.toggle('hidden');
+    introduction.classList.toggle('visible');
+    getStartedBtn.style.display = 'none';
+});
+</script>
+2026-08-17 08:43:58.341636: Typing completed: <!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device=width, initial-scale=1.0">
+    <title>Sonu's Anime World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <button id="getStartedBtn">Get Started</button>
+        <div id="introduction" class="hidden">
+            <h2>About Me</h2>
+            <p>Hello! I am Sonu Thakur, your creator and the owner of this website. I am from Nepal and I am 19 years old.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+<!-- style.css -->
+<style>
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #ff9a9e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+}
+</style>
+
+<!-- script.js -->
+<script>
+const getStartedBtn = document.getElementById('getStartedBtn');
+const introduction = document.getElementById('introduction');
+
+getStartedBtn.addEventListener('click', () => {
+    introduction.classList.toggle('hidden');
+    introduction.classList.toggle('visible');
+    getStartedBtn.style.display = 'none';
+});
+</script>
+2026-08-17 08:44:31.515615: Typing started: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Anime World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <button id="getStartedBtn">Get Started</button>
+        <div id="introduction" class="hidden">
+            <h2>About Me</h2>
+            <p>Hello! I am Sonu Thakur, your creator and the owner of this website. I am from Nepal and I am 19 years old.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+2026-08-17 08:44:32.699336: Typing completed: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Anime World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <button id="getStartedBtn">Get Started</button>
+        <div id="introduction" class="hidden">
+            <h2>About Me</h2>
+            <p>Hello! I am Sonu Thakur, your creator and the owner of this website. I am from Nepal and I am 19 years old.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+2026-08-17 08:44:39.563368: Typing started: body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #ff9a9e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+}
+2026-08-17 08:44:40.751392: Typing completed: body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #ff9a9e 0%, #fecfef 100%);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.container {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 30px;
+    border-radius: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    background: #ff9a9e;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.visible {
+    display: block;
+    opacity: 1;
+}
+2026-08-17 08:44:45.915035: Typing started: const getStartedBtn = document.getElementById('getStartedBtn');
+const introduction = document.getElementById('introduction');
+
+getStartedBtn.addEventListener('click', () => {
+    introduction.classList.toggle('hidden');
+    introduction.classList.toggle('visible');
+    getStartedBtn.style.display = 'none';
+});
+2026-08-17 08:44:47.098320: Typing completed: const getStartedBtn = document.getElementById('getStartedBtn');
+const introduction = document.getElementById('introduction');
+
+getStartedBtn.addEventListener('click', () => {
+    introduction.classList.toggle('hidden');
+    introduction.classList.toggle('visible');
+    getStartedBtn.style.display = 'none';
+});
+2026-08-17 08:47:35.268998: Typing started: Saving Instructions:
+
+1.  **HTML File:** Save the Notepad containing "<!DOCTYPE html>..." (jo tum 'docu pe html' bol rahe ho) as **index.html**
+2.  **CSS File:** Save the Notepad containing "body {..." (jo 'body wala' code hai) as **style.css**
+3.  **JavaScript File:** Save the Notepad containing "const getStartedBtn = ..." (jo 'const gets start btn document' hai) as **script.js**
+
+Make sure all three files are saved in the same folder!
+2026-08-17 08:47:36.451422: Typing completed: Saving Instructions:
+
+1.  **HTML File:** Save the Notepad containing "<!DOCTYPE html>..." (jo tum 'docu pe html' bol rahe ho) as **index.html**
+2.  **CSS File:** Save the Notepad containing "body {..." (jo 'body wala' code hai) as **style.css**
+3.  **JavaScript File:** Save the Notepad containing "const getStartedBtn = ..." (jo 'const gets start btn document' hai) as **script.js**
+
+Make sure all three files are saved in the same folder!
+2026-08-17 08:52:55.813598: Typing started: index.html
+style.css
+script.js
+2026-08-17 08:52:56.994793: Typing completed: index.html
+style.css
+script.js
+2026-08-17 08:59:01.865748: Typing started: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Anime World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <button id="getStartedBtn">Get Started</button>
+        <div id="introduction" class="hidden">
+            <h2>About Me</h2>
+            <p>Hello! I am Sonu Thakur, your creator and the owner of this website. I am from Nepal and I am 19 years old.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+2026-08-17 08:59:03.104552: Typing completed: <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sonu's Anime World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome!</h1>
+        <button id="getStartedBtn">Get Started</button>
+        <div id="introduction" class="hidden">
+            <h2>About Me</h2>
+            <p>Hello! I am Sonu Thakur, your creator and the owner of this website. I am from Nepal and I am 19 years old.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+2026-08-17 09:01:00.246976: Hotkey: Win + L
+2026-08-17 09:02:06.280029: Hotkey: Win + L
+2026-08-18 07:50:31.039027: Typing started: Concrete
+2026-08-18 07:50:32.772279: Typing completed: Concrete
+2026-08-29 08:47:00.564498: Typing started: TUNE VEER'S HORIZON
+2026-08-29 08:47:01.806748: Typing completed: TUNE VEER'S HORIZON
+2026-08-29 08:47:03.059883: Key pressed: Enter
+2026-08-29 08:47:15.266409: Mouse click: left
+2026-08-29 08:47:18.813925: Typing started: TUNE VEER'S HORIZON
+2026-08-29 08:47:20.023545: Typing completed: TUNE VEER'S HORIZON
+2026-08-29 08:47:20.503443: Key pressed: Enter
+2026-09-01 06:33:24.290868: Typing started: hello
+2026-09-01 06:33:25.529187: Typing completed: hello
+2026-09-01 06:34:16.251960: Typing started: WhatsApp
+2026-09-01 06:34:17.537081: Typing completed: WhatsApp
+2026-09-01 06:34:17.999010: Key pressed: Enter
+2026-09-01 06:34:20.111546: Mouse click: left
+2026-09-01 06:34:23.448129: Typing started: hello
+2026-09-01 06:34:24.638547: Typing completed: hello
+2026-09-03 06:24:37.335594: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <title>Sonu Thakur - Introduction</title>
+</head>
+<body>
+    <h1>Welcome to Sonu Thakur's Page</h1>
+    <p>Hello! I am Sonu Thakur, a passionate developer and the amazing creator of Maya, your intelligent and caring AI companion. This is my personal space.</p>
+</body>
+</html>
+2026-09-03 06:24:38.535752: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <title>Sonu Thakur - Introduction</title>
+</head>
+<body>
+    <h1>Welcome to Sonu Thakur's Page</h1>
+    <p>Hello! I am Sonu Thakur, a passionate developer and the amazing creator of Maya, your intelligent and caring AI companion. This is my personal space.</p>
+</body>
+</html>
+2026-09-05 08:36:24.273441: Hotkey: Control + n
+2026-09-05 08:36:29.299443: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <title>Sonu's Sci-Fi Introduction</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #00ffff; /* Neon blue */
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 50px;
+            overflow: hidden;
+        }
+        .container {
+            border: 2px solid #00ffff;
+            padding: 20px;
+            display: inline-block;
+            box-shadow: 0 0 10px #00ffff;
+            animation: fadeIn 2s infinite alternate;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .intro {
+            font-size: 24px;
+            margin: 10px 0;
+            text-shadow: 0 0 5px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">नमस्ते</div>
+        <div class="intro">मेरा नाम सोनू ठाकुर है</div>
+        <div class="intro">मैं नेपाल से हूँ</div>
+        <div class="intro">मेरा उमर 19 है</div>
+    </div>
+</body>
+</html>
+2026-09-05 08:36:30.713537: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <title>Sonu's Sci-Fi Introduction</title>
+    <style>
+        body {
+            background-color: #000;
+            color: #00ffff; /* Neon blue */
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+            padding-top: 50px;
+            overflow: hidden;
+        }
+        .container {
+            border: 2px solid #00ffff;
+            padding: 20px;
+            display: inline-block;
+            box-shadow: 0 0 10px #00ffff;
+            animation: fadeIn 2s infinite alternate;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        .intro {
+            font-size: 24px;
+            margin: 10px 0;
+            text-shadow: 0 0 5px #00ffff;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="intro">नमस्ते</div>
+        <div class="intro">मेरा नाम सोनू ठाकुर है</div>
+        <div class="intro">मैं नेपाल से हूँ</div>
+        <div class="intro">मेरा उमर 19 है</div>
+    </div>
+</body>
+</html>
+2026-09-05 08:36:34.289432: Hotkey: Control + s
+2026-09-05 08:36:38.383832: Typing started: C:\Users\Sonu\Documents\Sonu_Website\index.html
+2026-09-05 08:36:39.572616: Typing completed: C:\Users\Sonu\Documents\Sonu_Website\index.html
+2026-09-05 08:36:40.239640: Key pressed: Enter
+2026-09-05 08:39:23.021033: Hotkey: Control + n
+2026-09-05 08:39:27.518068: Typing started: <!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile UI Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mobile-frame">
+        <div class="screen">
+            <div class="status-bar">9:41 AM | 🌐 | 🔋</div>
+            <div class="app-grid">
+                <div class="app-icon">📱</div>
+                <div class="app-icon">💬</div>
+                <div class="app-icon">⚙️</div>
+                <div class="app-icon">🌐</div>
+            </div>
+            <div class="home-button"></div>
+        </div>
+    </div>
+</body>
+</html>
+2026-09-05 08:39:28.726876: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+    <title>Mobile UI Simulation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="mobile-frame">
+        <div class="screen">
+            <div class="status-bar">9:41 AM | 🌐 | 🔋</div>
+            <div class="app-grid">
+                <div class="app-icon">📱</div>
+                <div class="app-icon">💬</div>
+                <div class="app-icon">⚙️</div>
+                <div class="app-icon">🌐</div>
+            </div>
+            <div class="home-button"></div>
+        </div>
+    </div>
+</body>
+</html>
+2026-09-05 08:39:29.377375: Hotkey: Control + s
+2026-09-05 08:39:30.009468: Typing started: C:\Users\Sonu\Documents\Mobile_UI_Sim\index.html
+2026-09-05 08:39:31.215889: Typing completed: C:\Users\Sonu\Documents\Mobile_UI_Sim\index.html
+2026-09-05 08:39:31.820156: Key pressed: Enter
+2026-09-05 08:39:32.514275: Hotkey: Control + n
+2026-09-05 08:39:34.506983: Typing started: body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.mobile-frame {
+    width: 300px;
+    height: 600px;
+    background-color: #1a1a1a;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #00ffff;
+    border: 5px solid #00ffff;
+    overflow: hidden;
+}
+.screen {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: relative;
+}
+.status-bar {
+    background-color: #000;
+    color: #00ffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #00ffff;
+}
+.app-grid {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+.app-icon {
+    font-size: 30px;
+    cursor: pointer;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+2026-09-05 08:39:35.724040: Typing completed: body {
+    background-color: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+.mobile-frame {
+    width: 300px;
+    height: 600px;
+    background-color: #1a1a1a;
+    border-radius: 30px;
+    box-shadow: 0 0 20px #00ffff;
+    border: 5px solid #00ffff;
+    overflow: hidden;
+}
+.screen {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    position: relative;
+}
+.status-bar {
+    background-color: #000;
+    color: #00ffff;
+    padding: 5px 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #00ffff;
+}
+.app-grid {
+    display: flex;
+    padding: 20px;
+    gap: 15px;
+}
+.app-icon {
+    font-size: 30px;
+    cursor: pointer;
+    text-shadow: 0 0 5px #00ffff;
+}
+
+2026-09-05 08:39:36.375907: Hotkey: Control + s
+2026-09-05 08:39:36.975071: Typing started: C:\Users\Sonu\Documents\Mobile_UI_Sim\style.css
+2026-09-05 08:39:38.171763: Typing completed: C:\Users\Sonu\Documents\Mobile_UI_Sim\style.css
+2026-09-05 08:39:38.719762: Key pressed: Enter
+2026-09-10 10:45:25.213489: Typing started: <!DOCTYPE html>
+<html>
+<head>
+<title>3D Rotating Heart</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    perspective: 1000px;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    transform-style: preserve-3d;
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg);
+    }
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    background: red;
+    width: 50px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+}
+
+.heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart::after {
+    left: 0px;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+</style>
+</head>
+<body>
+<div class="heart"></div>
+</body>
+</html>
+2026-09-10 10:45:26.451082: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+<title>3D Rotating Heart</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+    perspective: 1000px;
+}
+
+.heart {
+    position: relative;
+    width: 100px;
+    height: 90px;
+    transform-style: preserve-3d;
+    animation: rotate 5s infinite linear;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg) rotateX(0deg);
+    }
+    100% {
+        transform: rotateY(360deg) rotateX(360deg);
+    }
+}
+
+.heart::before,
+.heart::after {
+    content: "";
+    position: absolute;
+    background: red;
+    width: 50px;
+    height: 80px;
+    border-radius: 50px 50px 0 0;
+}
+
+.heart::before {
+    left: 50px;
+    transform: rotate(-45deg);
+    transform-origin: 0 100%;
+}
+
+.heart::after {
+    left: 0px;
+    transform: rotate(45deg);
+    transform-origin: 100% 100%;
+}
+</style>
+</head>
+<body>
+<div class="heart"></div>
+</body>
+</html>
+2026-09-10 10:45:28.442767: Hotkey: control + s
+2026-09-10 10:45:29.865860: Typing started: C:\Users\Sonu\Desktop\heart_animation.html
+2026-09-10 10:45:31.049086: Typing completed: C:\Users\Sonu\Desktop\heart_animation.html
+2026-09-10 10:45:32.466070: Key pressed: enter
+2026-09-10 10:48:30.374842: Typing started: <!DOCTYPE html>
+<html>
+<head>
+<title>I Love You Particle Animation (Pink 3D)</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    margin: 0;
+    overflow: hidden;
+}
+canvas {
+    display: block;
+}
+</style>
+</head>
+<body>
+<canvas id="particleCanvas"></canvas>
+<script>
+const canvas = document.getElementById('particleCanvas');
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particles = [];
+const numParticles = 3000;
+const pink = '#ff69b4';
+let animationPhase = 'heart';
+let phaseStartTime = Date.now();
+
+class Particle {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+        this.size = Math.random() * 2 + 0.5;
+        this.color = pink;
+        this.speed = Math.random() * 0.05 + 0.01;
+        this.targetX = x;
+        this.targetY = y;
+        this.originalX = x;
+        this.originalY = y;
+    }
+
+    draw() {
+        ctx.fillStyle = this.color;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.fill();
+    }
+
+    update() {
+        let dx = this.targetX + canvas.width / 2 - this.x;
+        let dy = this.targetY + canvas.height / 2 - this.y;
+        this.x += dx * this.speed;
+        this.y += dy * this.speed;
+    }
+}
+
+function createHeart() {
+    particles = [];
+    for (let i = 0; i < numParticles; i++) {
+        let t = Math.random() * (2 * Math.PI);
+        let x = 16 * Math.sin(t) * Math.sin(t) * Math.sin(t);
+        let y = 13 * Math.cos(t) - 5 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(4 * t);
+        let scale = 10;
+        let offsetX = x * scale;
+        let offsetY = -y * scale;
+        particles.push(new Particle(offsetX, offsetY));
+    }
+}
+
+function createTextTargets() {
+    const text = "I ❤️ YOU";
+    ctx.font = '100px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillStyle = pink;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+    
+    const data = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    let textParticles = [];
+    for (let i = 0; i < canvas.width; i += 5) {
+        for (let j = 0; j < canvas.height; j += 5) {
+            if (data[((j * canvas.width + i) * 4) + 3] > 0) {
+                textParticles.push({x: i - canvas.width / 2, y: j - canvas.height / 2});
+            }
+        }
+    }
+    
+    // Distribute existing particles to new text targets
+    particles.forEach((p, index) => {
+        const target = textParticles[index % textParticles.length];
+        p.targetX = target.x;
+        p.targetY = target.y;
+        p.speed = Math.random() * 0.05 + 0.01;
+    });
+}
+
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    if (animationPhase === 'heart') {
+        // Simulate subtle rotation by updating targets slightly
+        particles.forEach(p => {
+            // Simple 3D simulation
+            const t = Date.now() * 0.0005;
+            p.targetX = p.originalX * Math.cos(t) - p.originalY * Math.sin(t);
+            p.targetY = p.originalX * Math.sin(t) + p.originalY * Math.cos(t);
+        });
+
+        if (Date.now() - phaseStartTime > 5000) {
+            animationPhase = 'disintegrate';
+            phaseStartTime = Date.now();
+            // Disintegrate: set random targets far away
+            particles.forEach(p => {
+                p.targetX = (Math.random() - 0.5) * canvas.width;
+                p.targetY = (Math.random() - 0.5) * canvas.height;
+                p.speed = Math.random() * 0.08 + 0.02;
+            });
+        }
+    } else if (animationPhase === 'disintegrate') {
+        if (Date.now() - phaseStartTime > 2000) {
+            animationPhase = 'text';
+            phaseStartTime = Date.now();
+            createTextTargets();
+        }
+    }
+    
+    particles.forEach(p => {
+        p.update();
+        p.draw();
+    });
+
+    requestAnimationFrame(animate);
+}
+
+createHeart();
+animate();
+
+</script>
+</body>
+</html>
+2026-09-10 10:48:31.618964: Typing completed: <!DOCTYPE html>
+<html>
+<head>
+<title>I Love You Particle Animation (Pink 3D)</title>
+<style>
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    margin: 0;
+    overflow: hidden;
+}
+canvas {
+    display: block;
+}
+</style>
+</head>
+<body>
+<canvas id="particleCanvas"></canvas>
+<script>
+const canvas = document.getElementById('particleCanvas');
+const ctx = canvas.getContext('2d');
+canvas.width = window.innerWidth;
+canvas.height = window.innerHeight;
+
+let particles = [];
+const numParticles = 3000;
+const pink = '#ff69b4';
+let animationPhase = 'heart';
+let phaseStartTime = Date.now();
+
+class Particle {
+    constructor(x, y) {
+        this.x = x;
+        this.y = y;
+        this.size = Math.random() * 2 + 0.5;
+        this.color = pink;
+        this.speed = Math.random() * 0.05 + 0.01;
+        this.targetX = x;
+        this.targetY = y;
+        this.originalX = x;
+        this.originalY = y;
+    }
+
+    draw() {
+        ctx.fillStyle = this.color;
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+        ctx.closePath();
+        ctx.fill();
+    }
+
+    update() {
+        let dx = this.targetX + canvas.width / 2 - this.x;
+        let dy = this.targetY + canvas.height / 2 - this.y;
+        this.x += dx * this.speed;
+        this.y += dy * this.speed;
+    }
+}
+
+function createHeart() {
+    particles = [];
+    for (let i = 0; i < numParticles; i++) {
+        let t = Math.random() * (2 * Math.PI);
+        let x = 16 * Math.sin(t) * Math.sin(t) * Math.sin(t);
+        let y = 13 * Math.cos(t) - 5 * Math.cos(2 * t) - 2 * Math.cos(3 * t) - Math.cos(4 * t);
+        let scale = 10;
+        let offsetX = x * scale;
+        let offsetY = -y * scale;
+        particles.push(new Particle(offsetX, offsetY));
+    }
+}
+
+function createTextTargets() {
+    const text = "I ❤️ YOU";
+    ctx.font = '100px Arial';
+    ctx.textAlign = 'center';
+    ctx.fillStyle = pink;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    ctx.fillText(text, canvas.width / 2, canvas.height / 2);
+    
+    const data = ctx.getImageData(0, 0, canvas.width, canvas.height).data;
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+    let textParticles = [];
+    for (let i = 0; i < canvas.width; i += 5) {
+        for (let j = 0; j < canvas.height; j += 5) {
+            if (data[((j * canvas.width + i) * 4) + 3] > 0) {
+                textParticles.push({x: i - canvas.width / 2, y: j - canvas.height / 2});
+            }
+        }
+    }
+    
+    // Distribute existing particles to new text targets
+    particles.forEach((p, index) => {
+        const target = textParticles[index % textParticles.length];
+        p.targetX = target.x;
+        p.targetY = target.y;
+        p.speed = Math.random() * 0.05 + 0.01;
+    });
+}
+
+function animate() {
+    ctx.clearRect(0, 0, canvas.width, canvas.height);
+    
+    if (animationPhase === 'heart') {
+        // Simulate subtle rotation by updating targets slightly
+        particles.forEach(p => {
+            // Simple 3D simulation
+            const t = Date.now() * 0.0005;
+            p.targetX = p.originalX * Math.cos(t) - p.originalY * Math.sin(t);
+            p.targetY = p.originalX * Math.sin(t) + p.originalY * Math.cos(t);
+        });
+
+        if (Date.now() - phaseStartTime > 5000) {
+            animationPhase = 'disintegrate';
+            phaseStartTime = Date.now();
+            // Disintegrate: set random targets far away
+            particles.forEach(p => {
+                p.targetX = (Math.random() - 0.5) * canvas.width;
+                p.targetY = (Math.random() - 0.5) * canvas.height;
+                p.speed = Math.random() * 0.08 + 0.02;
+            });
+        }
+    } else if (animationPhase === 'disintegrate') {
+        if (Date.now() - phaseStartTime > 2000) {
+            animationPhase = 'text';
+            phaseStartTime = Date.now();
+            createTextTargets();
+        }
+    }
+    
+    particles.forEach(p => {
+        p.update();
+        p.draw();
+    });
+
+    requestAnimationFrame(animate);
+}
+
+createHeart();
+animate();
+
+</script>
+</body>
+</html>
+2026-09-10 10:48:32.147256: Hotkey: control + s
+2026-09-10 10:48:32.696044: Typing started: C:\Users\Sonu\Desktop\pink_heart_dissolve.html
+2026-09-10 10:48:33.903501: Typing completed: C:\Users\Sonu\Desktop\pink_heart_dissolve.html
+2026-09-10 10:48:34.347522: Key pressed: enter
+2026-09-26 19:36:52.014350: Mouse click: left
+2026-09-26 19:36:53.726614: Typing started: Balan Shah Wikipedia
+2026-09-26 19:36:54.962988: Typing completed: Balan Shah Wikipedia
+2026-09-26 19:36:55.154286: Key pressed: Enter
+2026-10-02 11:58:50.002430: Typing started: my name is sonu thakur
+2026-10-02 11:58:51.339567: Typing completed: my name is sonu thakur

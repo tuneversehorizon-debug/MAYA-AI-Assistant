@@ -1,0 +1,3790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport"
+      content="width=device-width, initial-scale=1.0">
+
+<title>MAYA AI // PERSONAL COMMAND CENTER</title>
+
+<style>
+
+/* =========================================================
+   MAYA AI // FUTURISTIC HUD
+========================================================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+
+    --cyan: #00eaff;
+    --cyan2: #72f7ff;
+    --blue: #008cff;
+    --deep: #004cff;
+
+    --green: #00ffb7;
+    --yellow: #ffd166;
+    --red: #ff426d;
+
+    --bg: #01050d;
+
+    --panel: rgba(2, 15, 31, .82);
+
+    --border: rgba(0, 220, 255, .24);
+
+    --glow:
+        0 0 8px rgba(0, 234, 255, .8),
+        0 0 25px rgba(0, 120, 255, .35);
+
+    --font-mono:
+        "Cascadia Code",
+        Consolas,
+        monospace;
+}
+
+html,
+body {
+
+    width: 100%;
+    height: 100%;
+
+    overflow: hidden;
+
+    background: var(--bg);
+
+    color: #bdefff;
+
+    font-family:
+        "Segoe UI",
+        Arial,
+        sans-serif;
+}
+
+button,
+input {
+
+    font-family: inherit;
+}
+
+
+/* =========================================================
+   SPACE BACKGROUND
+========================================================= */
+
+#space {
+
+    position: fixed;
+
+    inset: 0;
+
+    overflow: hidden;
+
+    background:
+
+        radial-gradient(
+            circle at 50% 48%,
+            rgba(0, 180, 255, .13),
+            transparent 25%
+        ),
+
+        radial-gradient(
+            circle at 15% 20%,
+            rgba(0, 90, 255, .08),
+            transparent 28%
+        ),
+
+        radial-gradient(
+            circle at 85% 80%,
+            rgba(0, 220, 255, .05),
+            transparent 25%
+        ),
+
+        #01050d;
+}
+
+
+/* =========================================================
+   STARS
+========================================================= */
+
+.star {
+
+    position: absolute;
+
+    width: 2px;
+    height: 2px;
+
+    border-radius: 50%;
+
+    background: var(--cyan);
+
+    box-shadow:
+        0 0 5px var(--cyan),
+        0 0 15px var(--blue);
+
+    animation:
+        starFloat linear infinite;
+}
+
+@keyframes starFloat {
+
+    0% {
+
+        transform:
+            translateY(110vh)
+            scale(.4);
+
+        opacity: 0;
+    }
+
+    15% {
+        opacity: .8;
+    }
+
+    80% {
+        opacity: .6;
+    }
+
+    100% {
+
+        transform:
+            translateY(-15vh)
+            scale(1.2);
+
+        opacity: 0;
+    }
+}
+
+
+/* =========================================================
+   GRID
+========================================================= */
+
+.grid {
+
+    position: absolute;
+
+    width: 220%;
+    height: 220%;
+
+    left: -60%;
+    top: 38%;
+
+    background-image:
+
+        linear-gradient(
+            rgba(0, 210, 255, .045) 1px,
+            transparent 1px
+        ),
+
+        linear-gradient(
+            90deg,
+            rgba(0, 210, 255, .045) 1px,
+            transparent 1px
+        );
+
+    background-size: 42px 42px;
+
+    transform:
+        perspective(500px)
+        rotateX(68deg);
+
+    animation:
+        gridMove 9s linear infinite;
+}
+
+@keyframes gridMove {
+
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 0 42px;
+    }
+}
+
+
+/* =========================================================
+   SCANLINES
+========================================================= */
+
+.scanlines {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 100;
+
+    pointer-events: none;
+
+    opacity: .035;
+
+    background:
+
+        repeating-linear-gradient(
+            to bottom,
+            transparent 0px,
+            transparent 3px,
+            #00eaff 4px
+        );
+}
+
+
+/* =========================================================
+   VIGNETTE
+========================================================= */
+
+.vignette {
+
+    position: fixed;
+
+    inset: 0;
+
+    pointer-events: none;
+
+    z-index: 90;
+
+    background:
+
+        radial-gradient(
+            circle,
+            transparent 35%,
+            rgba(0, 0, 0, .3) 70%,
+            rgba(0, 0, 0, .85) 100%
+        );
+}
+
+
+/* =========================================================
+   APPLICATION
+========================================================= */
+
+.app {
+
+    position: relative;
+
+    width: 100%;
+    height: 100%;
+
+    z-index: 10;
+}
+
+
+/* =========================================================
+   TOP BAR
+========================================================= */
+
+.topbar {
+
+    position: absolute;
+
+    left: 20px;
+    right: 20px;
+    top: 15px;
+
+    height: 62px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 20px;
+
+    border:
+        1px solid
+        rgba(0, 220, 255, .28);
+
+    background:
+
+        linear-gradient(
+            90deg,
+            rgba(0, 50, 90, .72),
+            rgba(1, 12, 26, .84),
+            rgba(0, 50, 90, .72)
+        );
+
+    box-shadow:
+        0 0 30px rgba(0, 120, 255, .1);
+
+    backdrop-filter:
+        blur(15px);
+}
+
+
+/* =========================================================
+   BRAND
+========================================================= */
+
+.brand {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+}
+
+.brand-core {
+
+    width: 38px;
+    height: 38px;
+
+    border:
+        1px solid
+        var(--cyan);
+
+    border-radius: 50%;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    color: white;
+
+    font-family: var(--font-mono);
+
+    font-weight: 900;
+
+    box-shadow: var(--glow);
+
+    position: relative;
+}
+
+.brand-core::after {
+
+    content: "";
+
+    position: absolute;
+
+    inset: -7px;
+
+    border:
+        1px solid
+        rgba(0, 220, 255, .3);
+
+    border-radius: 50%;
+
+    border-right-color: transparent;
+
+    animation:
+        rotate 5s linear infinite;
+}
+
+.brand-name {
+
+    color: white;
+
+    font-size: 19px;
+
+    font-weight: 900;
+
+    letter-spacing: 6px;
+
+    text-shadow: var(--glow);
+}
+
+.brand-sub {
+
+    margin-top: 4px;
+
+    color: #427f92;
+
+    font-family: var(--font-mono);
+
+    font-size: 8px;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================================================
+   TOP STATUS
+========================================================= */
+
+.top-status {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 20px;
+
+    font-family: var(--font-mono);
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+.online {
+
+    color: var(--green);
+
+    text-shadow:
+        0 0 10px var(--green);
+}
+
+.online::before {
+
+    content: "●";
+
+    margin-right: 7px;
+
+    animation:
+        blink 1s infinite;
+}
+
+@keyframes blink {
+
+    50% {
+        opacity: .25;
+    }
+}
+
+
+/* =========================================================
+   CLOCK
+========================================================= */
+
+.clock {
+
+    color: var(--cyan);
+
+    letter-spacing: 3px;
+}
+
+
+/* =========================================================
+   LEFT / RIGHT
+========================================================= */
+
+.left-panel {
+
+    position: absolute;
+
+    left: 20px;
+
+    top: 92px;
+
+    bottom: 20px;
+
+    width: 260px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+.right-panel {
+
+    position: absolute;
+
+    right: 20px;
+
+    top: 92px;
+
+    bottom: 20px;
+
+    width: 280px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+}
+
+
+/* =========================================================
+   PANEL
+========================================================= */
+
+.panel {
+
+    position: relative;
+
+    padding: 14px;
+
+    background:
+
+        linear-gradient(
+            145deg,
+            rgba(3, 28, 52, .78),
+            rgba(1, 9, 20, .86)
+        );
+
+    border:
+        1px solid
+        var(--border);
+
+    box-shadow:
+
+        inset 0 0 25px
+        rgba(0, 150, 255, .025),
+
+        0 0 25px
+        rgba(0, 90, 255, .05);
+
+    backdrop-filter:
+        blur(14px);
+
+    overflow: hidden;
+}
+
+.panel::before {
+
+    content: "";
+
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 42px;
+
+    height: 1px;
+
+    background: var(--cyan);
+
+    box-shadow:
+        0 0 12px var(--cyan);
+}
+
+.panel::after {
+
+    content: "";
+
+    position: absolute;
+
+    right: 0;
+    bottom: 0;
+
+    width: 30px;
+
+    height: 1px;
+
+    background: var(--blue);
+
+    opacity: .6;
+}
+
+.panel-title {
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    margin-bottom: 12px;
+
+    color: var(--cyan);
+
+    font-family: var(--font-mono);
+
+    font-size: 9px;
+
+    letter-spacing: 2px;
+}
+
+.panel-title span {
+
+    color: #32677a;
+
+    font-size: 8px;
+}
+
+
+/* =========================================================
+   TELEMETRY
+========================================================= */
+
+.telemetry {
+
+    height: 190px;
+}
+
+.metric {
+
+    margin: 12px 0;
+}
+
+.metric-head {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    font-family: var(--font-mono);
+
+    font-size: 9px;
+
+    color: #6da9bb;
+}
+
+.metric-value {
+
+    color: var(--cyan);
+}
+
+.bar {
+
+    width: 100%;
+
+    height: 4px;
+
+    margin-top: 6px;
+
+    overflow: hidden;
+
+    background: #06131e;
+}
+
+.bar-fill {
+
+    height: 100%;
+
+    width: 0%;
+
+    background:
+        linear-gradient(
+            90deg,
+            var(--deep),
+            var(--cyan)
+        );
+
+    box-shadow:
+        0 0 10px var(--cyan);
+
+    transition:
+        width .5s ease;
+}
+
+
+/* =========================================================
+   SYSTEM MODULES
+========================================================= */
+
+.module-row {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 8px 0;
+
+    border-bottom:
+        1px solid
+        rgba(0, 180, 255, .08);
+
+    font-family: var(--font-mono);
+
+    font-size: 9px;
+}
+
+.module-row:last-child {
+    border-bottom: 0;
+}
+
+.module-name {
+    color: #6ca8bb;
+}
+
+.module-state {
+    color: var(--green);
+
+    text-shadow:
+        0 0 8px var(--green);
+}
+
+
+/* =========================================================
+   CENTER
+========================================================= */
+
+.center {
+
+    position: absolute;
+
+    left: 50%;
+    top: 51%;
+
+    width: 620px;
+    height: 620px;
+
+    transform:
+        translate(-50%, -50%);
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    perspective: 1000px;
+}
+
+.core-wrapper {
+
+    position: relative;
+
+    width: 560px;
+    height: 560px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    transform-style:
+        preserve-3d;
+
+    transition:
+        transform .12s ease-out;
+}
+
+
+/* =========================================================
+   AURA
+========================================================= */
+
+.aura {
+
+    position: absolute;
+
+    width: 350px;
+    height: 350px;
+
+    border-radius: 50%;
+
+    background:
+
+        radial-gradient(
+            circle,
+            rgba(0, 220, 255, .22),
+            rgba(0, 100, 255, .08) 45%,
+            transparent 70%
+        );
+
+    filter:
+        blur(22px);
+
+    animation:
+        auraPulse 3s infinite;
+}
+
+@keyframes auraPulse {
+
+    0%,
+    100% {
+
+        transform:
+            scale(.85);
+
+        opacity: .5;
+    }
+
+    50% {
+
+        transform:
+            scale(1.15);
+
+        opacity: 1;
+    }
+}
+
+
+/* =========================================================
+   CORE RINGS
+========================================================= */
+
+.ring {
+
+    position: absolute;
+
+    border-radius: 50%;
+
+    transform-style:
+        preserve-3d;
+}
+
+.ring-1 {
+
+    width: 300px;
+    height: 300px;
+
+    border:
+        2px solid
+        rgba(0, 235, 255, .85);
+
+    box-shadow:
+
+        0 0 10px var(--cyan),
+
+        0 0 35px
+        rgba(0, 160, 255, .55),
+
+        inset 0 0 30px
+        rgba(0, 180, 255, .25);
+
+    animation:
+        rotate 6s linear infinite;
+}
+
+.ring-2 {
+
+    width: 350px;
+    height: 350px;
+
+    border:
+        2px dashed
+        rgba(0, 190, 255, .65);
+
+    animation:
+        rotateReverse 9s linear infinite;
+}
+
+.ring-3 {
+
+    width: 410px;
+    height: 410px;
+
+    border:
+        1px solid
+        rgba(0, 180, 255, .3);
+
+    border-top-color:
+        var(--cyan);
+
+    border-bottom-color:
+        var(--blue);
+
+    animation:
+        rotate 14s linear infinite;
+}
+
+.ring-4 {
+
+    width: 470px;
+    height: 470px;
+
+    border:
+        1px solid
+        rgba(0, 170, 255, .18);
+
+    border-left:
+        2px solid
+        var(--cyan);
+
+    border-right:
+        2px solid
+        var(--deep);
+
+    animation:
+        rotateReverse 20s linear infinite;
+}
+
+.ring-5 {
+
+    width: 520px;
+    height: 520px;
+
+    border:
+        1px dashed
+        rgba(0, 160, 255, .13);
+
+    animation:
+        rotate 30s linear infinite;
+}
+
+@keyframes rotate {
+
+    from {
+        transform:
+            rotateZ(0deg)
+            rotateX(3deg);
+    }
+
+    to {
+        transform:
+            rotateZ(360deg)
+            rotateX(3deg);
+    }
+}
+
+@keyframes rotateReverse {
+
+    from {
+        transform:
+            rotateZ(360deg)
+            rotateY(3deg);
+    }
+
+    to {
+        transform:
+            rotateZ(0deg)
+            rotateY(3deg);
+    }
+}
+
+
+/* =========================================================
+   NEURAL ORBIT
+========================================================= */
+
+.neural-orbit {
+
+    position: absolute;
+
+    width: 500px;
+    height: 500px;
+
+    animation:
+        orbitRotate 40s linear infinite;
+}
+
+@keyframes orbitRotate {
+
+    to {
+        transform:
+            rotate(360deg);
+    }
+}
+
+.node {
+
+    position: absolute;
+
+    width: 5px;
+    height: 5px;
+
+    border-radius: 50%;
+
+    background: var(--cyan);
+
+    box-shadow:
+        0 0 8px var(--cyan),
+        0 0 20px var(--blue);
+}
+
+.node-1 {
+    left: 15%;
+    top: 20%;
+}
+
+.node-2 {
+    right: 18%;
+    top: 12%;
+}
+
+.node-3 {
+    left: 10%;
+    bottom: 25%;
+}
+
+.node-4 {
+    right: 12%;
+    bottom: 20%;
+}
+
+.node-5 {
+    left: 2%;
+    top: 48%;
+}
+
+.node-6 {
+    right: 2%;
+    top: 48%;
+}
+
+
+/* =========================================================
+   CORE
+========================================================= */
+
+.core {
+
+    position: absolute;
+
+    width: 235px;
+    height: 235px;
+
+    border-radius: 50%;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    background:
+
+        radial-gradient(
+            circle,
+            rgba(0, 90, 150, .55),
+            rgba(0, 14, 32, .95) 60%,
+            #010711
+        );
+
+    border:
+        1px solid
+        rgba(0, 240, 255, .75);
+
+    box-shadow:
+
+        0 0 15px
+        rgba(0, 220, 255, .7),
+
+        0 0 55px
+        rgba(0, 120, 255, .5),
+
+        0 0 120px
+        rgba(0, 80, 255, .2),
+
+        inset 0 0 45px
+        rgba(0, 180, 255, .25);
+
+    z-index: 10;
+}
+
+.core::before {
+
+    content: "";
+
+    position: absolute;
+
+    inset: 14px;
+
+    border-radius: 50%;
+
+    border:
+        1px solid
+        rgba(0, 230, 255, .25);
+
+    border-left-color:
+        transparent;
+
+    animation:
+        rotate 8s linear infinite;
+}
+
+
+/* =========================================================
+   CORE TEXT
+========================================================= */
+
+.maya-name {
+
+    position: relative;
+
+    z-index: 20;
+
+    color: white;
+
+    font-size: 42px;
+
+    font-weight: 900;
+
+    letter-spacing: 8px;
+
+    text-shadow:
+
+        0 0 5px white,
+
+        0 0 18px var(--cyan),
+
+        0 0 40px var(--blue),
+
+        0 0 70px var(--deep);
+
+    animation:
+        textPulse 2s infinite;
+}
+
+@keyframes textPulse {
+
+    50% {
+
+        text-shadow:
+
+            0 0 5px white,
+
+            0 0 25px var(--cyan),
+
+            0 0 55px var(--blue),
+
+            0 0 90px var(--deep);
+    }
+}
+
+.subtitle {
+
+    position: relative;
+
+    z-index: 20;
+
+    margin-top: 8px;
+
+    font-family: var(--font-mono);
+
+    color: #43dcff;
+
+    font-size: 8px;
+
+    letter-spacing: 3px;
+}
+
+
+/* =========================================================
+   VOICE WAVE
+========================================================= */
+
+.voice-wave {
+
+    position: absolute;
+
+    bottom: 52px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 3px;
+
+    width: 100px;
+
+    height: 30px;
+}
+
+.voice-wave span {
+
+    width: 2px;
+
+    height: 7px;
+
+    background: var(--cyan);
+
+    box-shadow:
+        0 0 8px var(--cyan);
+
+    animation:
+        voiceWave .8s
+        ease-in-out
+        infinite;
+}
+
+.voice-wave span:nth-child(2) {
+    animation-delay: .08s;
+}
+
+.voice-wave span:nth-child(3) {
+    animation-delay: .16s;
+}
+
+.voice-wave span:nth-child(4) {
+    animation-delay: .24s;
+}
+
+.voice-wave span:nth-child(5) {
+    animation-delay: .32s;
+}
+
+.voice-wave span:nth-child(6) {
+    animation-delay: .40s;
+}
+
+.voice-wave span:nth-child(7) {
+    animation-delay: .48s;
+}
+
+.voice-wave span:nth-child(8) {
+    animation-delay: .56s;
+}
+
+@keyframes voiceWave {
+
+    0%,
+    100% {
+
+        height: 5px;
+
+        opacity: .35;
+    }
+
+    50% {
+
+        height: 27px;
+
+        opacity: 1;
+    }
+}
+
+
+/* =========================================================
+   CORE STATUS
+========================================================= */
+
+.core-status {
+
+    position: absolute;
+
+    bottom: 27px;
+
+    color: var(--cyan);
+
+    font-family: var(--font-mono);
+
+    font-size: 8px;
+
+    letter-spacing: 3px;
+
+    text-shadow:
+        0 0 10px var(--cyan);
+}
+
+
+/* =========================================================
+   SEARCH / CHAT BUTTON
+========================================================= */
+
+.ai-launch {
+
+    position: absolute;
+
+    bottom: 76px;
+
+    left: 50%;
+
+    transform:
+        translateX(-50%);
+
+    z-index: 30;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 9px 17px;
+
+    border:
+        1px solid
+        rgba(0, 230, 255, .38);
+
+    background:
+        rgba(0, 30, 50, .65);
+
+    color: var(--cyan);
+
+    font-family: var(--font-mono);
+
+    font-size: 8px;
+
+    letter-spacing: 2px;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 0 15px
+        rgba(0, 200, 255, .1);
+
+    transition:
+        .2s;
+}
+
+.ai-launch:hover {
+
+    border-color:
+        var(--cyan);
+
+    box-shadow:
+        0 0 20px
+        rgba(0, 220, 255, .3);
+
+    background:
+        rgba(0, 80, 120, .25);
+}
+
+
+/* =========================================================
+   RIGHT CONSOLE
+========================================================= */
+
+.console {
+
+    height: 190px;
+
+    overflow: hidden;
+}
+
+.console-body {
+
+    height: 130px;
+
+    overflow: hidden;
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 8px;
+
+    line-height: 1.8;
+}
+
+.log {
+
+    color: #39788c;
+}
+
+.log-info {
+    color: var(--cyan);
+}
+
+.log-success {
+    color: var(--green);
+}
+
+.log-warning {
+    color: var(--yellow);
+}
+
+.log-error {
+    color: var(--red);
+}
+
+
+/* =========================================================
+   SECURITY
+========================================================= */
+
+.security-ring {
+
+    width: 70px;
+    height: 70px;
+
+    margin:
+        5px auto 3px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    border:
+        2px solid
+        var(--green);
+
+    border-radius: 50%;
+
+    color: var(--green);
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 8px;
+
+    box-shadow:
+
+        0 0 12px
+        var(--green),
+
+        inset 0 0 20px
+        rgba(0, 255, 183, .18);
+
+    animation:
+        securityPulse 2s infinite;
+}
+
+@keyframes securityPulse {
+
+    50% {
+        transform: scale(1.04);
+    }
+}
+
+
+/* =========================================================
+   PROCESS LIST
+========================================================= */
+
+.process-panel {
+
+    flex: 1;
+
+    min-height: 150px;
+}
+
+.process-list {
+
+    height: 100%;
+
+    overflow: hidden;
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 8px;
+}
+
+.process {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    padding: 6px 0;
+
+    border-bottom:
+        1px solid
+        rgba(0, 180, 255, .06);
+}
+
+.process-name {
+    color: #6099aa;
+}
+
+.process-state {
+    color: var(--green);
+}
+
+
+/* =========================================================
+   COMMAND BAR
+========================================================= */
+
+.command-bar {
+
+    position: absolute;
+
+    left: 50%;
+
+    bottom: 20px;
+
+    transform:
+        translateX(-50%);
+
+    width: 590px;
+
+    height: 44px;
+
+    display: flex;
+
+    align-items: center;
+
+    padding:
+        0 13px;
+
+    border:
+        1px solid
+        rgba(0, 220, 255, .35);
+
+    background:
+        rgba(1, 14, 28, .9);
+
+    box-shadow:
+        0 0 25px
+        rgba(0, 130, 255, .12);
+
+    backdrop-filter:
+        blur(15px);
+
+    z-index: 40;
+}
+
+.command-prefix {
+
+    color: var(--cyan);
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 9px;
+
+    margin-right: 9px;
+}
+
+#commandInput {
+
+    flex: 1;
+
+    border: 0;
+
+    outline: 0;
+
+    background: transparent;
+
+    color: #a8efff;
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 10px;
+
+    letter-spacing: 1px;
+}
+
+#commandInput::placeholder {
+
+    color: #27596a;
+}
+
+
+/* =========================================================
+   CHAT WINDOW
+========================================================= */
+
+.chat-window {
+
+    position: fixed;
+
+    top: 50%;
+
+    left: 50%;
+
+    width: 720px;
+
+    height: 620px;
+
+    transform:
+        translate(-50%, -50%)
+        scale(.94);
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    z-index: 200;
+
+    border:
+        1px solid
+        rgba(0, 230, 255, .45);
+
+    background:
+        rgba(1, 9, 19, .96);
+
+    box-shadow:
+
+        0 0 30px
+        rgba(0, 210, 255, .18),
+
+        0 0 100px
+        rgba(0, 80, 255, .15);
+
+    backdrop-filter:
+        blur(20px);
+
+    transition:
+        .25s ease;
+}
+
+.chat-window.open {
+
+    opacity: 1;
+
+    visibility: visible;
+
+    transform:
+        translate(-50%, -50%)
+        scale(1);
+}
+
+
+/* =========================================================
+   CHAT HEADER
+========================================================= */
+
+.chat-header {
+
+    height: 58px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    padding: 0 17px;
+
+    border-bottom:
+        1px solid
+        rgba(0, 220, 255, .18);
+
+    background:
+        linear-gradient(
+            90deg,
+            rgba(0, 80, 130, .2),
+            transparent
+        );
+}
+
+.chat-title {
+
+    color: white;
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 12px;
+
+    letter-spacing: 3px;
+}
+
+.chat-title span {
+
+    color: var(--cyan);
+
+    font-size: 8px;
+
+    margin-left: 8px;
+}
+
+.close-chat {
+
+    border:
+        1px solid
+        rgba(255, 66, 109, .35);
+
+    background:
+        transparent;
+
+    color: var(--red);
+
+    width: 30px;
+    height: 30px;
+
+    cursor: pointer;
+}
+
+
+/* =========================================================
+   CHAT MESSAGES
+========================================================= */
+
+.chat-messages {
+
+    height: 480px;
+
+    overflow-y: auto;
+
+    padding: 18px;
+}
+
+.chat-message {
+
+    margin-bottom: 15px;
+
+    animation:
+        messageIn .3s ease;
+}
+
+@keyframes messageIn {
+
+    from {
+
+        opacity: 0;
+
+        transform:
+            translateY(8px);
+    }
+
+    to {
+
+        opacity: 1;
+
+        transform:
+            translateY(0);
+    }
+}
+
+.chat-label {
+
+    margin-bottom: 5px;
+
+    color: #39788c;
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 7px;
+
+    letter-spacing: 2px;
+}
+
+.chat-content {
+
+    padding: 11px 13px;
+
+    border-left:
+        2px solid
+        var(--cyan);
+
+    background:
+        rgba(0, 180, 255, .055);
+
+    color: #bcefff;
+
+    font-size: 11px;
+
+    line-height: 1.6;
+
+    white-space: pre-wrap;
+}
+
+.chat-message.user .chat-content {
+
+    border-left-color:
+        #788cff;
+
+    background:
+        rgba(80, 100, 255, .06);
+}
+
+
+/* =========================================================
+   TYPING
+========================================================= */
+
+.typing {
+
+    display: inline-flex;
+
+    gap: 4px;
+
+    align-items: center;
+}
+
+.typing i {
+
+    width: 4px;
+    height: 4px;
+
+    border-radius: 50%;
+
+    background:
+        var(--cyan);
+
+    box-shadow:
+        0 0 8px
+        var(--cyan);
+
+    animation:
+        typingDot 1s infinite;
+}
+
+.typing i:nth-child(2) {
+    animation-delay: .15s;
+}
+
+.typing i:nth-child(3) {
+    animation-delay: .3s;
+}
+
+@keyframes typingDot {
+
+    50% {
+        transform:
+            translateY(-5px);
+    }
+}
+
+
+/* =========================================================
+   CHAT INPUT
+========================================================= */
+
+.chat-input {
+
+    height: 80px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    padding: 12px;
+
+    border-top:
+        1px solid
+        rgba(0, 220, 255, .15);
+}
+
+.chat-input input {
+
+    flex: 1;
+
+    height: 42px;
+
+    border:
+        1px solid
+        rgba(0, 220, 255, .25);
+
+    outline: none;
+
+    background:
+        rgba(0, 20, 35, .8);
+
+    color: white;
+
+    padding:
+        0 12px;
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 9px;
+}
+
+.chat-input button {
+
+    height: 42px;
+
+    padding:
+        0 17px;
+
+    border:
+        1px solid
+        var(--cyan);
+
+    background:
+        rgba(0, 220, 255, .06);
+
+    color: var(--cyan);
+
+    cursor: pointer;
+
+    font-family:
+        var(--font-mono);
+
+    font-size: 8px;
+}
+
+
+/* =========================================================
+   OVERLAY
+========================================================= */
+
+.chat-overlay {
+
+    position: fixed;
+
+    inset: 0;
+
+    z-index: 190;
+
+    background:
+        rgba(0, 4, 10, .65);
+
+    backdrop-filter:
+        blur(5px);
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    transition:
+        .25s;
+}
+
+.chat-overlay.open {
+
+    opacity: 1;
+
+    visibility: visible;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media(max-width:1200px) {
+
+    .left-panel,
+    .right-panel {
+        display: none;
+    }
+
+    .center {
+
+        transform:
+            translate(-50%, -50%)
+            scale(.82);
+    }
+}
+
+@media(max-width:800px) {
+
+    .chat-window {
+
+        width:
+            calc(100% - 25px);
+
+        height:
+            calc(100% - 100px);
+    }
+
+    .chat-messages {
+        height: calc(100% - 138px);
+    }
+
+    .command-bar {
+
+        width:
+            calc(100% - 30px);
+    }
+
+    .center {
+
+        transform:
+            translate(-50%, -50%)
+            scale(.65);
+    }
+}
+
+</style>
+</head>
+
+
+<body>
+
+
+<!-- =========================================================
+     BACKGROUND
+========================================================= -->
+
+<div id="space">
+
+    <div class="grid"></div>
+
+</div>
+
+
+<div class="scanlines"></div>
+
+<div class="vignette"></div>
+
+
+<!-- =========================================================
+     APPLICATION
+========================================================= -->
+
+<div class="app">
+
+
+<!-- =========================================================
+     TOP BAR
+========================================================= -->
+
+<header class="topbar">
+
+    <div class="brand">
+
+        <div class="brand-core">
+            M
+        </div>
+
+        <div>
+
+            <div class="brand-name">
+                MAYA
+            </div>
+
+            <div class="brand-sub">
+                PERSONAL AI // NEURAL COMMAND CENTER
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="top-status">
+
+        <div class="online">
+            SYSTEM ONLINE
+        </div>
+
+        <div class="clock"
+             id="clock">
+            00:00:00
+        </div>
+
+    </div>
+
+</header>
+
+
+<!-- =========================================================
+     LEFT PANEL
+========================================================= -->
+
+<section class="left-panel">
+
+
+    <!-- TELEMETRY -->
+
+    <div class="panel telemetry">
+
+        <div class="panel-title">
+
+            SYSTEM TELEMETRY
+
+            <span>LIVE</span>
+
+        </div>
+
+
+        <div class="metric">
+
+            <div class="metric-head">
+
+                <span>CPU</span>
+
+                <span
+                    id="cpuValue"
+                    class="metric-value">
+                    --%
+                </span>
+
+            </div>
+
+            <div class="bar">
+
+                <div
+                    id="cpuBar"
+                    class="bar-fill"
+                    style="width:0%">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="metric">
+
+            <div class="metric-head">
+
+                <span>MEMORY</span>
+
+                <span
+                    id="ramValue"
+                    class="metric-value">
+                    --%
+                </span>
+
+            </div>
+
+            <div class="bar">
+
+                <div
+                    id="ramBar"
+                    class="bar-fill"
+                    style="width:0%">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="metric">
+
+            <div class="metric-head">
+
+                <span>BATTERY</span>
+
+                <span
+                    id="batteryValue"
+                    class="metric-value">
+                    --%
+                </span>
+
+            </div>
+
+            <div class="bar">
+
+                <div
+                    id="batteryBar"
+                    class="bar-fill"
+                    style="width:0%">
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="metric">
+
+            <div class="metric-head">
+
+                <span>NEURAL LOAD</span>
+
+                <span
+                    id="neuralValue"
+                    class="metric-value">
+                    72%
+                </span>
+
+            </div>
+
+            <div class="bar">
+
+                <div
+                    id="neuralBar"
+                    class="bar-fill"
+                    style="width:72%">
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- MODULES -->
+
+    <div class="panel">
+
+        <div class="panel-title">
+
+            MAYA MODULES
+
+            <span>CORE</span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                VOICE ENGINE
+            </span>
+
+            <span class="module-state">
+                ● READY
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                NEURAL CORE
+            </span>
+
+            <span class="module-state">
+                ● ONLINE
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                WINDOWS CTRL
+            </span>
+
+            <span class="module-state">
+                ● READY
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                BROWSER
+            </span>
+
+            <span class="module-state">
+                ● READY
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                FILE SYSTEM
+            </span>
+
+            <span class="module-state">
+                ● READY
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- PROCESS -->
+
+    <div class="panel process-panel">
+
+        <div class="panel-title">
+
+            ACTIVE PROCESSES
+
+            <span id="processCount">
+                SCANNING
+            </span>
+
+        </div>
+
+
+        <div
+            class="process-list"
+            id="processList">
+
+            <div class="process">
+
+                <span class="process-name">
+                    MAYA.EXE
+                </span>
+
+                <span class="process-state">
+                    ACTIVE
+                </span>
+
+            </div>
+
+
+            <div class="process">
+
+                <span class="process-name">
+                    PYTHON
+                </span>
+
+                <span class="process-state">
+                    RUNNING
+                </span>
+
+            </div>
+
+
+            <div class="process">
+
+                <span class="process-name">
+                    SYSTEM
+                </span>
+
+                <span class="process-state">
+                    ONLINE
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     RIGHT PANEL
+========================================================= -->
+
+<section class="right-panel">
+
+
+    <!-- SECURITY -->
+
+    <div class="panel">
+
+        <div class="panel-title">
+
+            SECURITY
+
+            <span>PROTECTED</span>
+
+        </div>
+
+
+        <div class="security-ring">
+
+            SECURE
+
+        </div>
+
+    </div>
+
+
+    <!-- NEURAL STATE -->
+
+    <div class="panel">
+
+        <div class="panel-title">
+
+            NEURAL STATE
+
+            <span id="brainMode">
+                IDLE
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                REASONING
+            </span>
+
+            <span class="module-state">
+                READY
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                MEMORY
+            </span>
+
+            <span class="module-state">
+                ONLINE
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                VOICE
+            </span>
+
+            <span class="module-state">
+                ONLINE
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                VISION
+            </span>
+
+            <span class="module-state">
+                READY
+            </span>
+
+        </div>
+
+    </div>
+
+
+    <!-- CONSOLE -->
+
+    <div class="panel console">
+
+        <div class="panel-title">
+
+            SYSTEM CONSOLE
+
+            <span>LIVE</span>
+
+        </div>
+
+
+        <div
+            class="console-body"
+            id="consoleBody">
+
+            <div class="log log-success">
+                [BOOT] MAYA CORE ONLINE
+            </div>
+
+            <div class="log log-info">
+                [CORE] NEURAL LINK INITIALIZED
+            </div>
+
+            <div class="log log-success">
+                [VOICE] ENGINE READY
+            </div>
+
+            <div class="log log-info">
+                [WINDOWS] CONTROL MODULE READY
+            </div>
+
+            <div class="log log-info">
+                [SYSTEM] TELEMETRY ACTIVE
+            </div>
+
+            <div class="log log-success">
+                [MAYA] SYSTEM READY
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- NETWORK -->
+
+    <div class="panel">
+
+        <div class="panel-title">
+
+            NETWORK
+
+            <span>CONNECTED</span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                STATUS
+            </span>
+
+            <span
+                class="module-state"
+                id="networkStatus">
+                ONLINE
+            </span>
+
+        </div>
+
+
+        <div class="module-row">
+
+            <span class="module-name">
+                LATENCY
+            </span>
+
+            <span
+                class="module-state"
+                id="latency">
+                -- ms
+            </span>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================================================
+     CENTER
+========================================================= -->
+
+<main class="center">
+
+
+    <div
+        class="core-wrapper"
+        id="coreWrapper">
+
+
+        <div class="aura"></div>
+
+
+        <!-- NEURAL ORBIT -->
+
+        <div class="neural-orbit">
+
+            <span class="node node-1"></span>
+            <span class="node node-2"></span>
+            <span class="node node-3"></span>
+            <span class="node node-4"></span>
+            <span class="node node-5"></span>
+            <span class="node node-6"></span>
+
+        </div>
+
+
+        <!-- RINGS -->
+
+        <div class="ring ring-5"></div>
+
+        <div class="ring ring-4"></div>
+
+        <div class="ring ring-3"></div>
+
+        <div class="ring ring-2"></div>
+
+        <div class="ring ring-1"></div>
+
+
+        <!-- CORE -->
+
+        <div class="core">
+
+            <div
+                class="maya-name">
+                MAYA
+            </div>
+
+
+            <div class="subtitle">
+                PERSONAL AI
+            </div>
+
+
+            <!-- VOICE -->
+
+            <div class="voice-wave"
+                 id="voiceWave">
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+
+            <div
+                class="core-status"
+                id="coreStatus">
+
+                SYSTEM READY
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+
+    <!-- AI SEARCH -->
+
+    <button
+        class="ai-launch"
+        onclick="openChat()">
+
+        ◉ OPEN MAYA AI
+
+    </button>
+
+</main>
+
+
+<!-- =========================================================
+     COMMAND BAR
+========================================================= -->
+
+<div class="command-bar">
+
+    <div class="command-prefix">
+        MAYA://
+    </div>
+
+    <input
+        id="commandInput"
+        type="text"
+        autocomplete="off"
+        placeholder="Type command or search anything..."
+    >
+
+</div>
+
+
+</div>
+
+
+<!-- =========================================================
+     CHAT OVERLAY
+========================================================= -->
+
+<div
+    class="chat-overlay"
+    id="chatOverlay"
+    onclick="closeChat()">
+</div>
+
+
+<!-- =========================================================
+     CHAT WINDOW
+========================================================= -->
+
+<section
+    class="chat-window"
+    id="chatWindow">
+
+
+    <header class="chat-header">
+
+        <div class="chat-title">
+
+            MAYA AI
+
+            <span>
+                NEURAL SEARCH & CHAT
+            </span>
+
+        </div>
+
+
+        <button
+            class="close-chat"
+            onclick="closeChat()">
+
+            ×
+
+        </button>
+
+    </header>
+
+
+    <div
+        class="chat-messages"
+        id="chatMessages">
+
+
+        <div class="chat-message">
+
+            <div class="chat-label">
+                MAYA AI // SYSTEM
+            </div>
+
+            <div class="chat-content">
+
+                Neural interface online.
+
+                Ask me anything or give me a command.
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="chat-input">
+
+        <input
+            id="chatInput"
+            type="text"
+            autocomplete="off"
+            placeholder="Ask MAYA anything...">
+
+        <button
+            onclick="sendChat()">
+
+            SEND
+
+        </button>
+
+    </div>
+
+</section>
+
+
+<script>
+
+/* =========================================================
+   STAR FIELD
+========================================================= */
+
+const space =
+    document.getElementById("space");
+
+for (
+    let i = 0;
+    i < 150;
+    i++
+) {
+
+    const star =
+        document.createElement("div");
+
+    star.className =
+        "star";
+
+    star.style.left =
+        Math.random() * 100 + "%";
+
+    star.style.top =
+        Math.random() * 100 + "%";
+
+    star.style.animationDuration =
+        (5 + Math.random() * 12) + "s";
+
+    star.style.animationDelay =
+        (-Math.random() * 10) + "s";
+
+    const size =
+        1 + Math.random() * 2;
+
+    star.style.width =
+        size + "px";
+
+    star.style.height =
+        size + "px";
+
+    space.appendChild(star);
+}
+
+
+/* =========================================================
+   CLOCK
+========================================================= */
+
+function updateClock() {
+
+    const now =
+        new Date();
+
+    document.getElementById(
+        "clock"
+    ).textContent =
+        now.toLocaleTimeString(
+            "en-GB",
+            {
+                hour12: false
+            }
+        );
+}
+
+setInterval(
+    updateClock,
+    1000
+);
+
+updateClock();
+
+
+/* =========================================================
+   CORE PARALLAX
+========================================================= */
+
+const coreWrapper =
+    document.getElementById(
+        "coreWrapper"
+    );
+
+document.addEventListener(
+    "mousemove",
+    function(event) {
+
+        const x =
+            event.clientX /
+            window.innerWidth -
+            .5;
+
+        const y =
+            event.clientY /
+            window.innerHeight -
+            .5;
+
+        const rotateY =
+            x * 12;
+
+        const rotateX =
+            -y * 12;
+
+        coreWrapper.style.transform =
+            "rotateX(" +
+            rotateX +
+            "deg) rotateY(" +
+            rotateY +
+            "deg)";
+    }
+);
+
+
+/* =========================================================
+   MAYA STATE
+========================================================= */
+
+function setMayaState(state) {
+
+    const status =
+        document.getElementById(
+            "coreStatus"
+        );
+
+    const brain =
+        document.getElementById(
+            "brainMode"
+        );
+
+
+    const states = {
+
+        READY: [
+            "SYSTEM READY",
+            "IDLE"
+        ],
+
+        LISTENING: [
+            "LISTENING...",
+            "LISTENING"
+        ],
+
+        THINKING: [
+            "ANALYZING...",
+            "THINKING"
+        ],
+
+        PROCESSING: [
+            "PROCESSING...",
+            "PROCESSING"
+        ],
+
+        SPEAKING: [
+            "SPEAKING...",
+            "SPEAKING"
+        ],
+
+        ERROR: [
+            "SYSTEM ERROR",
+            "ERROR"
+        ]
+    };
+
+
+    if (
+        !states[state]
+    ) {
+        return;
+    }
+
+
+    status.textContent =
+        states[state][0];
+
+    brain.textContent =
+        states[state][1];
+}
+
+
+/* =========================================================
+   CHAT WINDOW
+========================================================= */
+
+function openChat() {
+
+    document
+        .getElementById("chatWindow")
+        .classList.add("open");
+
+    document
+        .getElementById("chatOverlay")
+        .classList.add("open");
+
+    setTimeout(
+        function() {
+
+            document
+                .getElementById("chatInput")
+                .focus();
+
+        },
+        200
+    );
+}
+
+
+function closeChat() {
+
+    document
+        .getElementById("chatWindow")
+        .classList.remove("open");
+
+    document
+        .getElementById("chatOverlay")
+        .classList.remove("open");
+}
+
+
+/* =========================================================
+   CHAT MESSAGE
+========================================================= */
+
+function addChatMessage(
+    type,
+    text
+) {
+
+    const container =
+        document.getElementById(
+            "chatMessages"
+        );
+
+
+    const wrapper =
+        document.createElement("div");
+
+    wrapper.className =
+        "chat-message " +
+        type;
+
+
+    const label =
+        document.createElement("div");
+
+    label.className =
+        "chat-label";
+
+    label.textContent =
+        type === "user"
+            ? "USER"
+            : "MAYA AI";
+
+
+    const content =
+        document.createElement("div");
+
+    content.className =
+        "chat-content";
+
+    content.textContent =
+        text;
+
+
+    wrapper.appendChild(label);
+
+    wrapper.appendChild(content);
+
+    container.appendChild(wrapper);
+
+
+    container.scrollTop =
+        container.scrollHeight;
+}
+
+
+/* =========================================================
+   TYPING MESSAGE
+========================================================= */
+
+function addTypingMessage() {
+
+    const container =
+        document.getElementById(
+            "chatMessages"
+        );
+
+
+    const wrapper =
+        document.createElement("div");
+
+    wrapper.className =
+        "chat-message";
+
+    wrapper.id =
+        "mayaTyping";
+
+
+    const label =
+        document.createElement("div");
+
+    label.className =
+        "chat-label";
+
+    label.textContent =
+        "MAYA AI // THINKING";
+
+
+    const content =
+        document.createElement("div");
+
+    content.className =
+        "chat-content";
+
+
+    content.innerHTML =
+        '<span class="typing">' +
+        '<i></i><i></i><i></i>' +
+        '</span>';
+
+
+    wrapper.appendChild(label);
+
+    wrapper.appendChild(content);
+
+    container.appendChild(wrapper);
+
+
+    container.scrollTop =
+        container.scrollHeight;
+}
+
+
+function removeTypingMessage() {
+
+    const typing =
+        document.getElementById(
+            "mayaTyping"
+        );
+
+    if (typing) {
+        typing.remove();
+    }
+}
+
+
+/* =========================================================
+   CHAT SEND
+========================================================= */
+
+function sendChat() {
+
+    const input =
+        document.getElementById(
+            "chatInput"
+        );
+
+    const message =
+        input.value.trim();
+
+
+    if (!message) {
+        return;
+    }
+
+
+    addChatMessage(
+        "user",
+        message
+    );
+
+
+    input.value = "";
+
+
+    setMayaState(
+        "THINKING"
+    );
+
+
+    addTypingMessage();
+
+
+    /*
+       Python backend hook.
+
+       Your maya_ui.py can expose:
+
+       window.pywebview.api.send_command(message)
+    */
+
+    if (
+        window.pywebview &&
+        window.pywebview.api &&
+        typeof
+        window.pywebview.api.send_command
+        === "function"
+    ) {
+
+        window.pywebview.api
+            .send_command(message);
+
+    }
+
+    else {
+
+        /*
+           Backend not connected.
+
+           UI remains functional.
+        */
+
+        setTimeout(
+            function() {
+
+                removeTypingMessage();
+
+                addChatMessage(
+                    "ai",
+                    "MAYA backend is not connected to this chat window yet."
+                );
+
+                setMayaState(
+                    "READY"
+                );
+
+            },
+            900
+        );
+    }
+}
+
+
+/* =========================================================
+   CHAT ENTER
+========================================================= */
+
+document
+    .getElementById("chatInput")
+    .addEventListener(
+        "keydown",
+        function(event) {
+
+            if (
+                event.key === "Enter"
+            ) {
+
+                sendChat();
+            }
+        }
+    );
+
+
+/* =========================================================
+   MAIN COMMAND BAR
+========================================================= */
+
+document
+    .getElementById("commandInput")
+    .addEventListener(
+        "keydown",
+        function(event) {
+
+            if (
+                event.key !== "Enter"
+            ) {
+                return;
+            }
+
+
+            const command =
+                event.target.value.trim();
+
+
+            if (!command) {
+                return;
+            }
+
+
+            event.target.value = "";
+
+
+            addConsoleLog(
+                "COMMAND: " +
+                command,
+                "info"
+            );
+
+
+            setMayaState(
+                "PROCESSING"
+            );
+
+
+            /*
+               Send command to Python.
+            */
+
+            if (
+                window.pywebview &&
+                window.pywebview.api &&
+                typeof
+                window.pywebview.api.send_command
+                === "function"
+            ) {
+
+                window.pywebview.api
+                    .send_command(command);
+
+            }
+        }
+    );
+
+
+/* =========================================================
+   CONSOLE
+========================================================= */
+
+function addConsoleLog(
+    message,
+    type
+) {
+
+    const consoleBody =
+        document.getElementById(
+            "consoleBody"
+        );
+
+
+    const line =
+        document.createElement("div");
+
+    line.className =
+        "log log-" +
+        (type || "info");
+
+
+    const now =
+        new Date()
+        .toLocaleTimeString(
+            "en-GB",
+            {
+                hour12: false
+            }
+        );
+
+
+    line.textContent =
+        "[" +
+        now +
+        "] " +
+        message;
+
+
+    consoleBody.appendChild(line);
+
+
+    while (
+        consoleBody.children.length >
+        9
+    ) {
+
+        consoleBody
+            .firstElementChild
+            .remove();
+    }
+}
+
+
+/* =========================================================
+   PYTHON -> HTML
+========================================================= */
+
+/*
+    Python can call:
+
+    window.mayaReceive(
+        "user",
+        "hello"
+    );
+
+    window.mayaReceive(
+        "ai",
+        "Hello Sonu"
+    );
+
+    window.mayaReceive(
+        "listening",
+        "Listening..."
+    );
+
+    window.mayaReceive(
+        "processing",
+        "Thinking..."
+    );
+
+    window.mayaReceive(
+        "error",
+        "Error message"
+    );
+*/
+
+window.mayaReceive =
+    function(
+        type,
+        message
+    ) {
+
+        if (!message) {
+            return;
+        }
+
+
+        if (
+            type === "user"
+        ) {
+
+            addChatMessage(
+                "user",
+                message
+            );
+
+            setMayaState(
+                "LISTENING"
+            );
+
+            addConsoleLog(
+                "USER: " + message,
+                "info"
+            );
+
+            return;
+        }
+
+
+        if (
+            type === "ai"
+        ) {
+
+            removeTypingMessage();
+
+            addChatMessage(
+                "ai",
+                message
+            );
+
+            setMayaState(
+                "SPEAKING"
+            );
+
+            addConsoleLog(
+                "MAYA: " + message,
+                "success"
+            );
+
+
+            setTimeout(
+                function() {
+
+                    setMayaState(
+                        "READY"
+                    );
+
+                },
+                1500
+            );
+
+            return;
+        }
+
+
+        if (
+            type === "listening"
+        ) {
+
+            setMayaState(
+                "LISTENING"
+            );
+
+            addConsoleLog(
+                "VOICE INPUT ACTIVE",
+                "info"
+            );
+
+            return;
+        }
+
+
+        if (
+            type === "processing"
+        ) {
+
+            setMayaState(
+                "THINKING"
+            );
+
+            return;
+        }
+
+
+        if (
+            type === "error"
+        ) {
+
+            removeTypingMessage();
+
+            addChatMessage(
+                "ai",
+                message
+            );
+
+            setMayaState(
+                "ERROR"
+            );
+
+            addConsoleLog(
+                message,
+                "error"
+            );
+
+            return;
+        }
+
+
+        addConsoleLog(
+            message,
+            "info"
+        );
+    };
+
+
+/* =========================================================
+   PYTHON -> TELEMETRY
+========================================================= */
+
+/*
+    Python can call:
+
+    window.updateTelemetry(
+        cpu,
+        ram,
+        battery,
+        neural,
+        network
+    );
+*/
+
+window.updateTelemetry =
+    function(
+        cpu,
+        ram,
+        battery,
+        neural,
+        network
+    ) {
+
+
+        updateBar(
+            "cpu",
+            cpu
+        );
+
+
+        updateBar(
+            "ram",
+            ram
+        );
+
+
+        updateBar(
+            "battery",
+            battery
+        );
+
+
+        updateBar(
+            "neural",
+            neural
+        );
+
+
+        updateBar(
+            "network",
+            network
+        );
+    };
+
+
+function updateBar(
+    name,
+    value
+) {
+
+    if (
+        typeof value !==
+        "number"
+    ) {
+        return;
+    }
+
+
+    value =
+        Math.max(
+            0,
+            Math.min(
+                100,
+                value
+            )
+        );
+
+
+    const valueElement =
+        document.getElementById(
+            name + "Value"
+        );
+
+
+    const barElement =
+        document.getElementById(
+            name + "Bar"
+        );
+
+
+    if (valueElement) {
+
+        valueElement.textContent =
+            Math.round(value) +
+            "%";
+    }
+
+
+    if (barElement) {
+
+        barElement.style.width =
+            value + "%";
+    }
+}
+
+
+/* =========================================================
+   BACKEND PROCESS LIST
+========================================================= */
+
+/*
+    Python can call:
+
+    window.updateProcesses([
+        {
+            name: "chrome.exe",
+            state: "RUNNING"
+        },
+        ...
+    ]);
+*/
+
+window.updateProcesses =
+    function(processes) {
+
+        if (
+            !Array.isArray(processes)
+        ) {
+            return;
+        }
+
+
+        const list =
+            document.getElementById(
+                "processList"
+            );
+
+
+        const count =
+            document.getElementById(
+                "processCount"
+            );
+
+
+        list.innerHTML = "";
+
+
+        processes
+            .slice(0, 10)
+            .forEach(
+                function(process) {
+
+                    const row =
+                        document.createElement(
+                            "div"
+                        );
+
+                    row.className =
+                        "process";
+
+
+                    const name =
+                        document.createElement(
+                            "span"
+                        );
+
+                    name.className =
+                        "process-name";
+
+                    name.textContent =
+                        process.name ||
+                        "UNKNOWN";
+
+
+                    const state =
+                        document.createElement(
+                            "span"
+                        );
+
+                    state.className =
+                        "process-state";
+
+                    state.textContent =
+                        process.state ||
+                        "RUNNING";
+
+
+                    row.appendChild(name);
+
+                    row.appendChild(state);
+
+                    list.appendChild(row);
+                }
+            );
+
+
+        count.textContent =
+            processes.length +
+            " ACTIVE";
+    };
+
+
+/* =========================================================
+   NETWORK
+========================================================= */
+
+window.updateNetwork =
+    function(
+        status,
+        latency
+    ) {
+
+        if (status) {
+
+            document.getElementById(
+                "networkStatus"
+            ).textContent =
+                status;
+        }
+
+
+        if (
+            typeof latency ===
+            "number"
+        ) {
+
+            document.getElementById(
+                "latency"
+            ).textContent =
+                Math.round(latency) +
+                " ms";
+        }
+    };
+
+
+/* =========================================================
+   QUICK BACKEND ACTIONS
+========================================================= */
+
+window.mayaAction =
+    function(action) {
+
+        if (
+            window.pywebview &&
+            window.pywebview.api &&
+            typeof
+            window.pywebview.api.send_command
+            === "function"
+        ) {
+
+            window.pywebview.api
+                .send_command(action);
+
+            addConsoleLog(
+                "ACTION: " + action,
+                "info"
+            );
+        }
+    };
+
+
+/* =========================================================
+   INITIAL STATE
+========================================================= */
+
+setMayaState(
+    "READY"
+);
+
+
+/* =========================================================
+   STARTUP CONSOLE
+========================================================= */
+
+setTimeout(
+    function() {
+
+        addConsoleLog(
+            "MAYA HUD INITIALIZED",
+            "success"
+        );
+
+    },
+    500
+);
+
+setTimeout(
+    function() {
+
+        addConsoleLog(
+            "WAITING FOR NEURAL INPUT",
+            "info"
+        );
+
+    },
+    1000
+);
+
+
+/* =========================================================
+   DEMO NEURAL LOAD
+========================================================= */
+
+setInterval(
+    function() {
+
+        const value =
+            60 +
+            Math.random() * 30;
+
+
+        updateBar(
+            "neural",
+            value
+        );
+
+    },
+    1200
+);
+
+
+/* =========================================================
+   INITIAL NETWORK
+========================================================= */
+
+setInterval(
+    function() {
+
+        const latency =
+            12 +
+            Math.random() * 18;
+
+
+        updateNetwork(
+            "ONLINE",
+            latency
+        );
+
+    },
+    1500
+);
+
+</script>
+
+</body>
+</html>
