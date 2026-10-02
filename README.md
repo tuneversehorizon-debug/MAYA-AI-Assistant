@@ -145,9 +145,9 @@ MAYA-AI/
 ├── jarvis_get_whether.py
 ├── Jarvis_file_opner.py
 ├── keyboard_mouse_CTRL.py
-│
+├──maya_ui.html
+├──maya_ui.py
 ├── requirements.txt
-├── .gitignore
 └── README.md
 ```
 
@@ -274,3 +274,6 @@ If you find the project interesting, consider giving the repository a ⭐ on Git
 ### 🤖 MAYA AI
 
 **Your voice. Your commands. Your computer.**
+<img width="1917" height="1078" alt="Screenshot 2026-10-02 134537" src="https://github.com/user-attachments/assets/63a3b556-0bb0-4880-b5e7-cbd66f8f4530" />
+
+
