@@ -274,6 +274,13 @@ If you find the project interesting, consider giving the repository a ⭐ on Git
 ### 🤖 MAYA AI
 
 **Your voice. Your commands. Your computer.**
-<img width="1917" height="1078" alt="Screenshot 2026-10-02 134537" src="https://github.com/user-attachments/assets/63a3b556-0bb0-4880-b5e7-cbd66f8f4530" />
+<img width="1917" height="1051" alt="Screenshot 2026-10-02 134038" src="https://github.com/user-attachments/assets/f641ae95-567c-4e89-b007-dd5517160328" />
+
+<img width="1917" height="1048" alt="image" src="https://github.com/user-attachments/assets/74c855bd-83ec-453a-bfb9-a164de84a125" />
+
+
+
+
+
 
 
