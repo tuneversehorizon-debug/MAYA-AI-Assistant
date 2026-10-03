@@ -160,13 +160,13 @@ MAYA-AI/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/MAYA-AI.git
+https://github.com/tuneversehorizon-debug/MAYA-AI-Assistant.git
 ```
 
 ### 2. Open the project
 
 ```bash
-cd MAYA-AI
+cd MAYA-AI-Assistant
 ```
 
 ### 3. Create a virtual environment
